@@ -22,7 +22,7 @@
     <link href="assets/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/creative.min.css" rel="stylesheet">
+    <link href="assets/css/creative.css" rel="stylesheet">
 
   </head>
 
@@ -51,8 +51,8 @@
             </li>
           </ul>
           <form action="/ci/index.php/aluno/" method="post">
-            <label>  Nome: </label><input type="text" name="nome"/>
-            <label>  E-mail:</label> <input type="email" name="email"/>
+            <label>Nome: </label><input type="text" name="nome"/>
+            <label>E-mail: </label> <input type="email" name="email"/>
             <input type="submit" value="Login"/>
         </form>
         </div>

@@ -305,11 +305,17 @@ th {
 label {
   display: inline-block;
   margin-bottom: .5rem;
-  font-size: 12px;
+  font-size: .9.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
 
 button {
   border-radius: 0;
+  width: 10px;
+  
 }
 
 button:focus {
@@ -326,6 +332,10 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+input{
+  width: 100px;
+  height: 25px;
 }
 
 button,
