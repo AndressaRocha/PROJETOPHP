@@ -56,8 +56,8 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>Clean Blog</h1>
-              <span class="subheading">A Blog Theme by Start Bootstrap</span>
+              <h1>Painel do aluno </h1>
+              <span class="subheading">Bem vindo ao seu feed de aulas, publique ou participe de alguma</span>
             </div>
           </div>
         </div>
