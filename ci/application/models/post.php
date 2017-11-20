@@ -3,21 +3,21 @@
     class Post extends Aluno{
         private $titulo, $descricao, $data, $hora, $disciplina;
         
-        public function __construct($titulo, $descricao, $data, $hora, $disciplina){
+        public function __construct($titulo, $disciplina, $data, $hora, $descricao){
             $this->titulo = $titulo;
-            $this->descricao = $descricao;
+            $this->disciplina = $disciplina;
             $this->data = $data;
             $this->hora = $hora;
-            $this->disciplina = $disciplina;
+            $this->descricao = $descricao;
         }
         
         public function toArray(){
             $aux = array();
             $aux["titulo"] = $this->titulo;
-            $aux["descricao"] = $this->descricao;
+            $aux["disciplina"] = $this->disciplina;
             $aux["data"] = $this->data;
             $aux["hora"] = $this->hora;
-            $aux["disciplina"] = $this->disciplina;
+            $aux["descricao"] = $this->descricao;
             return $aux;
         }
         

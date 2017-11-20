@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets2/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -64,36 +65,23 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              <strong>Your Favorite Source of Free Bootstrap Themes</strong>
+              <strong>#PartiuEstudar</strong>
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+            <p class="text-faded mb-5">O #PartiuEstudar é um sistema que permite aos alunos, uma troca de conteúdo. Onde um aluno pode oferecer uma aula para outros alunos. </p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Sobre</a>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="bg-primary" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="services">
+ <section id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
+            <h2 class="section-heading">Motivos para usar o #PartiuEstudar</h2>
             <hr class="my-4">
           </div>
         </div>
@@ -130,119 +118,52 @@
           </div>
         </div>
       </div>
+          
     </section>
+    
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Cadastre-se</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">Opa, partiu fazer seu cadastro! Preecha com seus dados pessoais o formulário a baixo</p>
+            
+             <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
 
-    <section class="p-0" id="portfolio">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
+                  <input type="text" class="form-control" placeholder="Nome" id="nome" required data-validation-required-message="Preencha o nome">
+                <p class="help-block text-danger"></p>
+                 
+                  <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Preencha o email">
+                <p class="help-block text-danger"></p>
+                
+                  <input type="email" class="form-control" placeholder="ConfEmail" id="confemail" required data-validation-required-message="Invalido!">
+                <p class="help-block text-danger"></p>
+                
+                  <input type="password" class="form-control" placeholder="Senha" id="senha" required data-validation-required-message="Preencha a senha">
+                <p class="help-block text-danger"></p>
+                
+                  <input type="password" class="form-control" placeholder="ConfSenha" id="confsenha" required data-validation-required-message="Invalido!">
+                <p class="help-block text-danger"></p>
+                
               </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
+            </div>
+             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">OK</a>
+          </form>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-      </div>
-    </section>
-
-    <section id="contact">
+    
+   <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Let's Get In Touch!</h2>
             <hr class="my-4">
-            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+
           </div>
         </div>
         <div class="row">
