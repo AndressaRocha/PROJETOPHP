@@ -70,7 +70,7 @@
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">O #PartiuEstudar é um sistema que permite aos alunos, uma troca de conteúdo. Onde um aluno pode oferecer uma aula para outros alunos. </p>
+            <p class="text-faded mb-5">O #PartiuEstudar é um sistema que possibilita a integração acadêmica entre os alunos. Possibilitando que os estudantes se ajudem, e tenham maior facilidade de encontrar quem está disponível a ajudar, e quem está precisando de ajuda. </p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Sobre</a>
           </div>
         </div>
@@ -92,21 +92,21 @@
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Ajude seus amigos</h3>
-              <p class="text-muted mb-0">Entre como professor, e ajude quem está precisando</p>
+              <p class="text-muted mb-0">Entre como Aluno Monitor, e ajude quem está precisando</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Onde quiser</h3>
-              <p class="text-muted mb-0">Encontre um professor e comece agora mesmo!</p>
+              <p class="text-muted mb-0">Encontre um Aluno Monitor e comece agora mesmo!</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Nas suas horas vagas</h3>
-              <p class="text-muted mb-0">Você pode estudar quando quiser, só basta encontrar um professor disponível.</p>
+              <p class="text-muted mb-0">Você pode estudar quando quiser, só basta encontrar um Aluno Monitor disponível.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
