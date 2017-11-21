@@ -51,7 +51,7 @@
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
-          <form action="/ci/index.php/aluno/" method="post" class="formulario">
+          <form action="/projetophp/ci/index.php/aluno/auth" method="post" class="formulario">
             <label class="form-login">Nome: </label><input type="text" name="nome"/>
             <label class="form-login">E-mail: </label> <input type="email" name="email"/>
             <input type="submit" value="Login" class="btn-primary"/>
@@ -128,11 +128,13 @@
             <h2 class="section-heading text-white">Cadastre-se</h2>
             <hr class="light my-4">
             <p class="text-faded mb-4">Opa, partiu fazer seu cadastro! Preecha com seus dados pessoais o formulário a baixo</p>
-            
-             <form name="sentMessage" id="contactForm" novalidate>
+            <div>
+                <?= $msg ?>
+            </div>
+             <form action="/ci/index.php/usuario/cadastro/" method="post" name="sentMessage" id="contactForm" novalidate>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
-
+              
                   <input type="text" class="form-control" placeholder="Nome" id="nome" required data-validation-required-message="Preencha o nome">
                 <p class="help-block text-danger"></p>
                  
@@ -150,8 +152,9 @@
                 
               </div>
             </div>
-             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">OK</a>
+             <button>OK</button>
           </form>
+            
           </div>
         </div>
       </div>

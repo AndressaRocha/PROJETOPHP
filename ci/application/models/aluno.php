@@ -1,11 +1,19 @@
 <?php
-    
-    class Aluno extends Usuario{
+    require_once APPPATH."models/formulario.php";
+    class AlunoModel extends Usuario implements formulario{
         private $ra, $curso;
         
         public function __construct($ra, $curso){
             $this->ra = $ra;
             $this->curso = $curso;
+        }
+        
+        public function getRa(){
+            return $this->ra;
+        }
+        
+        public function getCurso(){
+            return $this->curso;
         }
         
         public function toArray(){
@@ -17,17 +25,13 @@
             $aux["curso"] = $this->curso;
             return $aux;
         }
-         //METODO CADASTRAR ALUNO
-        public function cadastrar(){
-            
-        }
-        //METODO LOGIN *USANDO POLIFORMISMO 
-        public function login(){
-            
+
+        public function getClassName(){
+            return "aluno";
         }
         
-        public function getClassName(){
-            return "Aluno";
+        //METODO AUTH *USANDO POLIFORMISMO 
+        public function auth(){
         }
     }
 ?>
