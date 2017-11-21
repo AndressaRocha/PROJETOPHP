@@ -131,7 +131,7 @@
             <div>
                 <?= $msg ?>
             </div>
-             <form action="/ci/index.php/usuario/cadastro/" method="post" name="sentMessage" id="contactForm" novalidate>
+             <form action="/projetophp/ci/index.php/aluno/cadastro/" method="post" name="sentMessage" id="contactForm" novalidate>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
               
@@ -148,6 +148,12 @@
                 <p class="help-block text-danger"></p>
                 
                   <input type="password" class="form-control" placeholder="ConfSenha" id="confsenha" required data-validation-required-message="Invalido!">
+                <p class="help-block text-danger"></p>
+                
+                <input type="text" class="form-control" placeholder="ra" id="ra" required data-validation-required-message="Preencha a senha">
+                <p class="help-block text-danger"></p>
+                
+                  <input type="text" class="form-control" placeholder="curso" id="confsenha" required data-validation-required-message="Invalido!">
                 <p class="help-block text-danger"></p>
                 
               </div>

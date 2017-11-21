@@ -1,5 +1,6 @@
 <?php
     require_once APPPATH."models/formulario.php";
+    require_once APPPATH."models/usuario.php";
     class AlunoModel extends Usuario implements formulario{
         private $ra, $curso;
         
@@ -18,9 +19,9 @@
         
         public function toArray(){
             $aux = array();
-            $aux["email"] = $this->email;
-            $aux["senha"] = $this->senha;
-            $aux["nome"] = $this->nome;
+            $aux["nome"] = $this->getNome();
+            $aux["email"] = $this->getEmail();
+            $aux["senha"] = $this->getSenha();
             $aux["ra"] = $this->ra;
             $aux["curso"] = $this->curso;
             return $aux;

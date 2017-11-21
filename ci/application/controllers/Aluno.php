@@ -1,14 +1,15 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+require_once APPPATH."models/usuario.php";
 class Aluno extends CI_Controller {
 
 	public function form(){
-		$data = array();
-		$data["msg"] = $this->session->userdata("msg");
-		$this->load->library('session');
-		$this->load->view("cadastrousuario",$data);
-		$this->session->unset_userdata("msg");
+		$this->load->view("home");
+	}
+	
+	public function sair(){
+		$this->session->unset_userdata("aluno");
+		redirect('/aluno/form','refresh');
 	}
 	
      //METODO CADASTRAR ALUNO
@@ -16,8 +17,10 @@ class Aluno extends CI_Controller {
 		$nome = $this->input->post("nome");
 		$email = $this->input->post("email");
 		$senha = $this->input->post("senha");
+		$ra = $this->input->post("ra");
+		$curso = $this->input->post("curso");
 		require_once APPPATH."models/aluno.php";
-		$alu = new AlunoModel(0,$nome,$email,$senha);
+		$alu = new AlunoModel($ra,$curso,$nome,$email,$senha);
 		//NAO HA CONSTRUTOR NOS DAO'S
 		$this->load->model('insertdao');
 		$alunodao = $this->insertdao;
@@ -26,5 +29,4 @@ class Aluno extends CI_Controller {
 		redirect('/home/','refresh');
         
     }
-}
 }

@@ -7,4 +7,4 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['default_controller'] = 'home';
 $route['aluno/cadastro'] = 'aluno/cadastrar';
-$route['logout'] = 'login/sair';
+$route['logout'] = 'aluno/sair';
