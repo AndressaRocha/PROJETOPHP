@@ -91,29 +91,29 @@
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Sturdy Templates</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+              <h3 class="mb-3">Ajude seus amigos</h3>
+              <p class="text-muted mb-0">Entre como professor, e ajude quem está precisando</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Ready to Ship</h3>
-              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+              <h3 class="mb-3">Onde quiser</h3>
+              <p class="text-muted mb-0">Encontre um professor e comece agora mesmo!</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Up to Date</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+              <h3 class="mb-3">Nas suas horas vagas</h3>
+              <p class="text-muted mb-0">Você pode estudar quando quiser, só basta encontrar um professor disponível.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Made with Love</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+              <h3 class="mb-3">Estude o que você realmente quer</h3>
+              <p class="text-muted mb-0">Escolha o que você quer estudar, e divirta-se!</p>
             </div>
           </div>
         </div>
