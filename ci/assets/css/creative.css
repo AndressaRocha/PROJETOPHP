@@ -3,6 +3,8 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
+
+ /*  ALTERAÇÕES DENTRO DO BOOTSTRAP */
 body,
 html {
   width: 100%;
@@ -235,4 +237,19 @@ header.masthead {
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
     
+ /*  ALTERAÇÕES FORA DO BOOTSTRAP */
+ .form-login{
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F05F40;  
+    padding: .5rem .3rem;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+text-shadow: 1px 0px 8px rgba(255, 255, 255, 0.2);
+}
+.form-login:hover{
+  color: #fff;
+}
+
+
   

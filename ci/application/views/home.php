@@ -32,7 +32,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">#PartiuEstudar</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,10 +51,10 @@
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
-          <form action="/ci/index.php/aluno/" method="post">
-            <label>Nome: </label><input type="text" name="nome"/>
-            <label>E-mail: </label> <input type="email" name="email"/>
-            <input type="submit" value="Login"/>
+          <form action="/ci/index.php/aluno/" method="post" class="formulario">
+            <label class="form-login">Nome: </label><input type="text" name="nome"/>
+            <label class="form-login">E-mail: </label> <input type="email" name="email"/>
+            <input type="submit" value="Login" class="btn-primary"/>
         </form>
         </div>
       </div>
