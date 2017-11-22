@@ -245,7 +245,16 @@ header.masthead {
     color: #F05F40;  
     padding: .5rem .3rem;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-text-shadow: 1px 0px 8px rgba(255, 255, 255, 0.2);
+    text-shadow: 1px 0px 8px rgba(255, 255, 255, 0.2);
+    margin-top: 2%;
+    margin-right: 0%;
+}
+form.formulario{
+  margin-left: 15%;
+}
+.btn-xl-1 {
+  padding: 0rem 1rem;
+  
 }
 
 

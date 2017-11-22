@@ -39,22 +39,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about">Cadastre-se</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
             </li>
           </ul>
           <form action="/projetophp/ci/index.php/aluno/auth" method="post" class="formulario">
             <label class="form-login">Nome: </label><input type="text" name="nome"/>
             <label class="form-login">E-mail: </label> <input type="email" name="email"/>
-            <input type="submit" value="Login" class="btn-primary"/>
+            <input type="submit" value="Login" class="btn btn-primary btn-xl-1 js-scroll-trigger"/>
         </form>
         </div>
       </div>
@@ -138,22 +135,22 @@
                   <input type="text" class="form-control" placeholder="Nome" id="nome" required data-validation-required-message="Preencha o nome">
                 <p class="help-block text-danger"></p>
                  
-                  <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Preencha o email">
+                  <input type="email" class="form-control" placeholder="E-mail" id="email" required data-validation-required-message="Preencha o email">
                 <p class="help-block text-danger"></p>
                 
-                  <input type="email" class="form-control" placeholder="ConfEmail" id="confemail" required data-validation-required-message="Invalido!">
+                  <input type="email" class="form-control" placeholder="Confirme seu E-mail" id="confemail" required data-validation-required-message="Invalido!">
                 <p class="help-block text-danger"></p>
                 
                   <input type="password" class="form-control" placeholder="Senha" id="senha" required data-validation-required-message="Preencha a senha">
                 <p class="help-block text-danger"></p>
                 
-                  <input type="password" class="form-control" placeholder="ConfSenha" id="confsenha" required data-validation-required-message="Invalido!">
+                  <input type="password" class="form-control" placeholder="Confirme sua senha" id="confsenha" required data-validation-required-message="Invalido!">
                 <p class="help-block text-danger"></p>
                 
-                <input type="text" class="form-control" placeholder="ra" id="ra" required data-validation-required-message="Preencha a senha">
+                <input type="text" class="form-control" placeholder="R.A" id="ra" required data-validation-required-message="Preencha a senha">
                 <p class="help-block text-danger"></p>
                 
-                  <input type="text" class="form-control" placeholder="curso" id="confsenha" required data-validation-required-message="Invalido!">
+                  <input type="text" class="form-control" placeholder="Curso" id="curso" required data-validation-required-message="Invalido!">
                 <p class="help-block text-danger"></p>
                 
               </div>
@@ -170,7 +167,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <h2 class="section-heading">Entre em contato!</h2>
             <hr class="my-4">
 
           </div>
@@ -178,12 +175,12 @@
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>123-456-6789</p>
+            <p>+55 13 99163-8883</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+              <a href="mailto:juciara.slima@gmail.com">juciara.slima@gmail.com</a>
             </p>
           </div>
         </div>
