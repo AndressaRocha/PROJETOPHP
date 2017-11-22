@@ -1,17 +1,8 @@
 <?php
-    
-    abstract class Usuario{
-        private $id, $nome, $email, $senha;
+    require_once APPPATH."models/formulario.php";
+    abstract class Usuario implements formulario{
         
-        public function __construct($id, $nome, $email, $senha){
-            $this->id = $id;
-            $this->email = $email;
-            $this->senha = $senha;
-            $this->nome = $nome;
-        }
-        public function getId(){
-            return $this->id;
-        }
+        public $id, $nome, $email, $senha;
         
         public function getNome(){
             return $this->nome;
@@ -24,11 +15,10 @@
         public function getSenha(){
             return $this->senha;
         }
+        
+        
         //METODO LOGIN 
         public function login(){}
         
-        public function getClassName(){
-            return "usuario";
-        }
     }
 ?>

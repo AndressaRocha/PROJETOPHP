@@ -4,26 +4,33 @@
     class AlunoModel extends Usuario implements formulario{
         private $ra, $curso;
         
-        public function __construct($ra, $curso){
+        public function __construct($id, $nome, $curso, $ra, $email, $senha){
+            $this->id = $id;
+            $this->nome = $nome;
+            $this->email = $email;
+            $this->senha = $senha;
             $this->ra = $ra;
             $this->curso = $curso;
+        }
+         
+        
+        public function getCurso(){
+            return $this->curso;
         }
         
         public function getRa(){
             return $this->ra;
         }
         
-        public function getCurso(){
-            return $this->curso;
-        }
+        
         
         public function toArray(){
             $aux = array();
             $aux["nome"] = $this->getNome();
+            $aux["curso"] = $this->curso;
+            $aux["ra"] = $this->ra;
             $aux["email"] = $this->getEmail();
             $aux["senha"] = $this->getSenha();
-            $aux["ra"] = $this->ra;
-            $aux["curso"] = $this->curso;
             return $aux;
         }
 
