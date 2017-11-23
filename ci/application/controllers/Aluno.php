@@ -27,7 +27,7 @@ class Aluno extends CI_Controller {
 		$insdao = $this->insertdao;
 		$insdao->insert($alu);
 		$this->session->set_userdata("msg","Usuário Cadastrado");
-		redirect('/home/','refresh');
+		redirect('home','refresh');
         
     }
 }

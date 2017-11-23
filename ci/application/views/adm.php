@@ -11,15 +11,15 @@
     <title>ADMINISTRADOR</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets2/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>assets2/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="assets2/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='assets2/https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='assets2/https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="<?= base_url(); ?>assets2/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='<?= base_url(); ?>assets2/https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='<?= base_url(); ?>assets2/https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="assets2/css/clean-blog.min.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>assets2/css/clean-blog.min.css" rel="stylesheet">
 
   </head>
 
@@ -39,7 +39,7 @@
               <a class="nav-link" href="adm.php">Excluir um usuario</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="home.php">Sair</a>
+              <a href="/projetophp/ci/index.php/logout/">Sair</a>
             </li>
           </ul>
         </div>
@@ -47,7 +47,7 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('assets2/img/about-bg.jpg')">
+    <header class="masthead" style="background-image: url('<?= base_url(); ?>assets2/img/about-bg.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
