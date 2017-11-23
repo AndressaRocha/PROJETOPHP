@@ -70,33 +70,33 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <p>Preencha os campos com os dados da sua aula, assim que o cadastro for finalizado sua aula estará disponivel no feed para todos os usuarios.</p>
           
-          <form name="sentMessage" id="contactForm" novalidate>
+          <form action="/ci/index.php/post/cadastrarAula/" method="post" name="sentMessage" id="contactForm" novalidate>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Titulo</label>
-                <input type="text" class="form-control" placeholder="Titulo" id="titulo" required data-validation-required-message="Preencha o tutilo">
+                <input type="text" class="form-control" placeholder="Titulo" name="titulo" required data-validation-required-message="Preencha o tutilo">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Email Address</label>
-                <input type="text" class="form-control" placeholder="disciplina" id="disciplina" required data-validation-required-message="Preencha a disciplina">
+                <input type="text" class="form-control" placeholder="disciplina" name="disciplina" required data-validation-required-message="Preencha a disciplina">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
                 <label>Data</label>
-                <input type="date" class="form-control" placeholder="Data" id="data" required data-validation-required-message="Preencha a data">
-                <input type="time" class="form-control" placeholder="Hora" id="hora" required data-validation-required-message="Preencha a hora">
+                <input type="date" class="form-control" placeholder="Data" name="data" required data-validation-required-message="Preencha a data">
+                <input type="time" class="form-control" placeholder="Hora" name="hora" required data-validation-required-message="Preencha a hora">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Descrição</label>
-                <textarea rows="5" class="form-control" placeholder="Descricao" id="descricao" required data-validation-required-message="Preencha a descrição."></textarea>
+                <textarea rows="5" class="form-control" placeholder="Descricao" name="descricao" required data-validation-required-message="Preencha a descrição."></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>

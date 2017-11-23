@@ -1,24 +1,19 @@
 <?php
-    
-    class Post extends Aluno{
-        private $titulo, $descricao, $data, $hora, $disciplina;
+require_once APPPATH."models/formulario.php";
+    class PostModel implements formulario{
+        private $id, $titulo, $disciplina, $data, $hora, $descricao ;
         
-        public function __construct($titulo, $disciplina, $data, $hora, $descricao){
+        //Passando os parametros privados 
+        public function __construct($id, $titulo, $disciplina, $data, $hora, $descricao){
+            $this->id = $id;
             $this->titulo = $titulo;
             $this->disciplina = $disciplina;
             $this->data = $data;
             $this->hora = $hora;
             $this->descricao = $descricao;
         }
-        
-        public function toArray(){
-            $aux = array();
-            $aux["titulo"] = $this->titulo;
-            $aux["disciplina"] = $this->disciplina;
-            $aux["data"] = $this->data;
-            $aux["hora"] = $this->hora;
-            $aux["descricao"] = $this->descricao;
-            return $aux;
+        public function getId(){
+            return $this->id;
         }
         
         public function getTitulo(){
@@ -46,9 +41,19 @@
             
         }
         
+        public function toArray(){
+            $aux = array();
+            $aux["titulo"] = $this->titulo;
+            $aux["disciplina"] = $this->disciplina;
+            $aux["data"] = $this->data;
+            $aux["hora"] = $this->hora;
+            $aux["descricao"] = $this->descricao;
+            return $aux;
+        }
         
         public function getClassName(){
-            return "Post";
+            return "post"; //Nome da tabela do banco
         }
+        
     }
 ?>

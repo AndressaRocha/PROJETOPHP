@@ -1,0 +1,79 @@
+[23-Nov-2017 16:29:46 UTC] PHP Fatal error:  Class 'Aluno' not found in /home/ubuntu/workspace/ci/application/models/post.php on line 3
+[23-Nov-2017 16:29:46 UTC] PHP Stack trace:
+[23-Nov-2017 16:29:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[23-Nov-2017 16:29:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[23-Nov-2017 16:29:46 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:29:46 UTC] PHP   4. Post->cadastrarAula() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:29:46 UTC] PHP   5. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:18
+[23-Nov-2017 16:31:22 UTC] PHP Fatal error:  Cannot redeclare class Post in /home/ubuntu/workspace/ci/application/models/post.php on line 3
+[23-Nov-2017 16:31:22 UTC] PHP Stack trace:
+[23-Nov-2017 16:31:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[23-Nov-2017 16:31:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[23-Nov-2017 16:31:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:31:22 UTC] PHP   4. Post->cadastrarAula() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:33:02 UTC] PHP Fatal error:  Class 'Aluno' not found in /home/ubuntu/workspace/ci/application/models/post.php on line 3
+[23-Nov-2017 16:33:02 UTC] PHP Stack trace:
+[23-Nov-2017 16:33:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[23-Nov-2017 16:33:02 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[23-Nov-2017 16:33:02 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:33:02 UTC] PHP   4. Post->cadastrarAula() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:33:02 UTC] PHP   5. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:18
+[23-Nov-2017 16:35:04 UTC] PHP Fatal error:  Class 'Aluno' not found in /home/ubuntu/workspace/ci/application/models/post.php on line 3
+[23-Nov-2017 16:35:04 UTC] PHP Stack trace:
+[23-Nov-2017 16:35:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[23-Nov-2017 16:35:04 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[23-Nov-2017 16:35:04 UTC] PHP   3. require_once() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:411
+[23-Nov-2017 16:35:04 UTC] PHP   4. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:4
+[23-Nov-2017 16:35:08 UTC] PHP Fatal error:  Class 'Aluno' not found in /home/ubuntu/workspace/ci/application/models/post.php on line 3
+[23-Nov-2017 16:35:08 UTC] PHP Stack trace:
+[23-Nov-2017 16:35:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[23-Nov-2017 16:35:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[23-Nov-2017 16:35:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:411
+[23-Nov-2017 16:35:08 UTC] PHP   4. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:4
+[23-Nov-2017 16:35:12 UTC] PHP Fatal error:  Class 'Aluno' not found in /home/ubuntu/workspace/ci/application/models/post.php on line 3
+[23-Nov-2017 16:35:12 UTC] PHP Stack trace:
+[23-Nov-2017 16:35:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[23-Nov-2017 16:35:12 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[23-Nov-2017 16:35:12 UTC] PHP   3. require_once() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:411
+[23-Nov-2017 16:35:12 UTC] PHP   4. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:4
+[23-Nov-2017 16:35:17 UTC] PHP Fatal error:  Class 'Aluno' not found in /home/ubuntu/workspace/ci/application/models/post.php on line 3
+[23-Nov-2017 16:35:17 UTC] PHP Stack trace:
+[23-Nov-2017 16:35:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[23-Nov-2017 16:35:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[23-Nov-2017 16:35:17 UTC] PHP   3. require_once() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:411
+[23-Nov-2017 16:35:17 UTC] PHP   4. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:4
+[23-Nov-2017 16:35:33 UTC] PHP Fatal error:  Class 'Aluno' not found in /home/ubuntu/workspace/ci/application/models/post.php on line 3
+[23-Nov-2017 16:35:33 UTC] PHP Stack trace:
+[23-Nov-2017 16:35:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[23-Nov-2017 16:35:33 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[23-Nov-2017 16:35:33 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:35:33 UTC] PHP   4. Post->cadastrarAula() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:35:33 UTC] PHP   5. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:19
+[23-Nov-2017 16:36:50 UTC] PHP Fatal error:  Class 'Aluno' not found in /home/ubuntu/workspace/ci/application/models/post.php on line 3
+[23-Nov-2017 16:36:50 UTC] PHP Stack trace:
+[23-Nov-2017 16:36:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[23-Nov-2017 16:36:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[23-Nov-2017 16:36:50 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:36:50 UTC] PHP   4. Post->cadastrarAula() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:36:50 UTC] PHP   5. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:19
+[23-Nov-2017 16:36:57 UTC] PHP Fatal error:  Class 'Aluno' not found in /home/ubuntu/workspace/ci/application/models/post.php on line 3
+[23-Nov-2017 16:36:57 UTC] PHP Stack trace:
+[23-Nov-2017 16:36:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[23-Nov-2017 16:36:57 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[23-Nov-2017 16:36:57 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:36:57 UTC] PHP   4. Post->cadastrarAula() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:36:57 UTC] PHP   5. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:19
+[23-Nov-2017 16:38:01 UTC] PHP Fatal error:  Class 'Aluno' not found in /home/ubuntu/workspace/ci/application/models/post.php on line 2
+[23-Nov-2017 16:38:01 UTC] PHP Stack trace:
+[23-Nov-2017 16:38:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[23-Nov-2017 16:38:01 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[23-Nov-2017 16:38:01 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:38:01 UTC] PHP   4. Post->cadastrarAula() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:38:01 UTC] PHP   5. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:19
+[23-Nov-2017 16:38:22 UTC] PHP Fatal error:  Cannot redeclare class Post in /home/ubuntu/workspace/ci/application/models/post.php on line 2
+[23-Nov-2017 16:38:22 UTC] PHP Stack trace:
+[23-Nov-2017 16:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[23-Nov-2017 16:38:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[23-Nov-2017 16:38:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:38:22 UTC] PHP   4. Post->cadastrarAula() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[23-Nov-2017 16:38:22 UTC] PHP   5. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:19

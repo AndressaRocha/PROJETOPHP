@@ -6,13 +6,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Base Site URL
 |--------------------------------------------------------------------------
 |
-|
+|$config['base_url'] = 'https://projeto-juciaralima.c9users.io/ci/';
 */
-$config['base_url'] = 'https://projeto-juciaralima.c9users.io/ci/';
 
-/*
+
+
 $config['base_url'] = 'https://projeto-andressarocha.c9users.io/ci/';
-*/
+
 
 
 $config['index_page'] = 'index.php';
