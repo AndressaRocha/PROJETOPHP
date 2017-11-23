@@ -42,7 +42,7 @@
               <a class="nav-link" href="aula.php">Cadastre uma aula</a>
             </li>
             <li class="nav-item">
-              <a href="/projetophp/ci/index.php/logout/">Sair</a>
+              <a href="/ci/index.php/logout/">Sair</a>
             </li>
           </ul>
         </div>

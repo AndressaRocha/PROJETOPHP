@@ -47,7 +47,7 @@
           </ul>
         </div>
       </div>
-      <a href="/projetophp/ci/index.php/logout/">Sair</a>
+      <a href="/ci/index.php/logout/">Sair</a>
     </nav>
 
     <!-- Page Header -->

@@ -48,7 +48,7 @@
               <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
             </li>
           </ul>
-          <form action="/projetophp/ci/index.php/aluno/auth" method="post" class="formulario">
+          <form action="/ci/index.php/aluno/auth" method="post" class="formulario">
             <label class="form-login">Nome: </label><input type="text" name="nome"/>
             <label class="form-login">E-mail: </label> <input type="email" name="email"/>
             <input type="submit" value="Login" class="btn btn-primary btn-xl-1 js-scroll-trigger"/>
@@ -128,7 +128,7 @@
             <div>
                <p> <?php echo $msg;?></p>
             </div>
-             <form action="/projetophp/ci/index.php/aluno/cadastro/" method="post" name="sentMessage" id="contactForm" novalidate>
+             <form action="/ci/index.php/aluno/cadastro/" method="post" name="sentMessage" id="contactForm" novalidate>
               
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
