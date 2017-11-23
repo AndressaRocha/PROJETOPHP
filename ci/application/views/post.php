@@ -28,7 +28,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Bem vindo(a)</a>
+        <h1> BEM-VINDO </h1>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -36,13 +36,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="feed.php">Feed</a>
+              <a class="nav-link" href="/ci/index.php/feed/">Feed</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aula.php">Cadastre uma aula</a>
+              <a class="nav-link" href="/ci/index.php/post/">Cadastre uma aula</a>
             </li>
             <li class="nav-item">
-              <a href="/ci/index.php/logout/">Sair</a>
+              <a class="nav-link" href="/ci/index.php/logout/">Sair</a>
             </li>
           </ul>
         </div>
@@ -74,14 +74,14 @@
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Titulo</label>
-                <input type="text" class="form-control" placeholder="Titulo" name="titulo" required data-validation-required-message="Preencha o tutilo">
+                <input type="text" minlength="10" class="form-control" placeholder="Titulo" name="titulo" required data-validation-required-message="Preencha o tutilo">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
-                <label>Email Address</label>
-                <input type="text" class="form-control" placeholder="disciplina" name="disciplina" required data-validation-required-message="Preencha a disciplina">
+                <label>Disciplina</label>
+                <input type="text" maxlength="50" class="form-control" placeholder="Disciplina" name="disciplina" required data-validation-required-message="Preencha a disciplina">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -96,7 +96,7 @@
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Descrição</label>
-                <textarea rows="5" class="form-control" placeholder="Descricao" name="descricao" required data-validation-required-message="Preencha a descrição."></textarea>
+                <textarea rows="5" minlength="10" class="form-control" placeholder="Descricao" name="descricao" required data-validation-required-message="Preencha a descrição."></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>

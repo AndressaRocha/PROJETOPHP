@@ -136,10 +136,10 @@
                   <input type="text" class="form-control" placeholder="Nome" name="nome" required data-validation-required-message="Preencha o nome">
                 <p class="help-block text-danger"></p>
                 
-                <input type="text" class="form-control" placeholder="Curso" name="curso" required data-validation-required-message="Invalido!">
+                <input type="text" maxlength="50" class="form-control" placeholder="Curso" name="curso" required data-validation-required-message="Invalido!">
                 <p class="help-block text-danger"></p>
                 
-                <input type="text" class="form-control" placeholder="R.A" name="ra" required data-validation-required-message="Preencha a senha">
+                <input type="text" maxlength="12" minlength="12" class="form-control" placeholder="R.A" name="ra" required data-validation-required-message="Preencha a senha">
                 <p class="help-block text-danger"></p>
                  
                   <input type="email" class="form-control" placeholder="E-mail" name="email" required data-validation-required-message="Preencha o email">
@@ -148,7 +148,7 @@
                   <input type="email" class="form-control" placeholder="Confirme seu E-mail" name="confemail" required data-validation-required-message="Invalido!">
                 <p class="help-block text-danger"></p>
                 
-                  <input type="password" class="form-control" placeholder="Senha" name="senha" required data-validation-required-message="Preencha a senha">
+                  <input type="password" minlength="8" class="form-control" placeholder="Senha" name="senha" required data-validation-required-message="Preencha a senha">
                 <p class="help-block text-danger"></p>
                 
                   <input type="password" class="form-control" placeholder="Confirme sua senha" id="confsenha" required data-validation-required-message="Invalido!">

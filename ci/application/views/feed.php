@@ -25,7 +25,7 @@
 
   <body>
 
-    <!-- Navigation -->
+      <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <h1> BEM-VINDO </h1>
@@ -36,19 +36,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="feed.php">Feed</a>
+              <a class="nav-link" href="/ci/index.php/feed/">Feed</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aula.php">Cadastre uma aula</a>
+              <a class="nav-link" href="/ci/index.php/post/">Cadastre uma aula</a>
             </li>
             <li class="nav-item">
-              
+              <a class="nav-link" href="/ci/index.php/logout/">Sair</a>
             </li>
           </ul>
         </div>
       </div>
-      <a href="/ci/index.php/logout/">Sair</a>
     </nav>
+
 
     <!-- Page Header -->
     <header class="masthead" style="background-image: url('<?= base_url(); ?>assets2/img/home-bg.jpg')">
