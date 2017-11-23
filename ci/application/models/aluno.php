@@ -5,10 +5,8 @@
         private $ra, $curso;
         
         public function __construct($id, $nome, $curso, $ra, $email, $senha){
-            $this->id = $id;
-            $this->nome = $nome;
-            $this->email = $email;
-            $this->senha = $senha;
+            parent:: __construct($id, $nome,$email, $senha);
+           
             $this->ra = $ra;
             $this->curso = $curso;
         }
@@ -21,9 +19,7 @@
         public function getRa(){
             return $this->ra;
         }
-        
-        
-        
+
         public function toArray(){
             $aux = array();
             $aux["nome"] = $this->getNome();
