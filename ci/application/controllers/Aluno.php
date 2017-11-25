@@ -4,14 +4,27 @@ require_once APPPATH."models/usuario.php";
 require_once APPPATH."models/aluno.php";
 class Aluno extends CI_Controller {
 
-	public function form(){
+	
+	public function sairHome(){
 		$this->load->view('home');
 	}
 	
 	public function sair(){
 		$this->session->unset_userdata("aluno");
-		redirect('/aluno/form','refresh');
+		redirect('/aluno/sairHome','refresh');
 	}
+	
+	
+/*	public function dashboard(){
+		if($this->session->userdata("usuario")){
+			$data["nome"] = $this->session->userdata("usuario");
+			$this->load->view("feed",$data);
+		}else{
+			redirect('/login/form','refresh');
+		}
+	}
+*/	
+
 	
      //METODO CADASTRAR ALUNO
     public function cadastrar(){
@@ -27,7 +40,7 @@ class Aluno extends CI_Controller {
 		$insdao = $this->insertdao;
 		$insdao->insert($alu);
 		$this->session->set_userdata("msg","Usuário Cadastrado");
-		redirect('home','refresh');
+		redirect('home/form','refresh');
         
     }
 }
