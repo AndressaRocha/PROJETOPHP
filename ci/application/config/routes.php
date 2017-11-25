@@ -8,4 +8,4 @@ $route['translate_uri_dashes'] = FALSE;
 $route['default_controller'] = 'home/form';
 $route['aluno/cadastro'] = 'aluno/cadastrar';
 $route['post/cadastrarAula'] = 'post/cadastrarAula';
-$route['logout'] = 'aluno/sairHome';
+$route['logout'] = 'aluno/sair';

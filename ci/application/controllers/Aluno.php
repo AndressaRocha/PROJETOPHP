@@ -4,16 +4,11 @@ require_once APPPATH."models/usuario.php";
 require_once APPPATH."models/aluno.php";
 class Aluno extends CI_Controller {
 
-	
-	public function sairHome(){
-		$this->load->view('home');
-	}
-	
 	public function sair(){
 		$this->session->unset_userdata("aluno");
-		redirect('/aluno/sairHome','refresh');
+		redirect('home/form','refresh');
 	}
-
+	
      //METODO CADASTRAR ALUNO
     public function cadastrar(){
 		$nome = $this->input->post("nome");
