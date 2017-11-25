@@ -77,3 +77,4 @@
 [23-Nov-2017 16:38:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
 [23-Nov-2017 16:38:22 UTC] PHP   4. Post->cadastrarAula() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
 [23-Nov-2017 16:38:22 UTC] PHP   5. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:19
+[25-Nov-2017 11:52:37 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Aluno.php on line 53

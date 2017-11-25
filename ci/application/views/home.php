@@ -49,8 +49,8 @@
             </li>
           </ul>
           <form action="/ci/index.php/aluno/auth" method="post" class="formulario">
-            <label class="form-login">Nome: </label><input type="text" name="nome"/>
             <label class="form-login">E-mail: </label> <input type="email" name="email"/>
+            <label class="form-login">Senha: </label><input type="password" name="senha"/>
             <input type="submit" value="Login" class="btn btn-primary btn-xl-1 js-scroll-trigger"/>
         </form>
         </div>

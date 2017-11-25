@@ -13,19 +13,7 @@ class Aluno extends CI_Controller {
 		$this->session->unset_userdata("aluno");
 		redirect('/aluno/sairHome','refresh');
 	}
-	
-	
-/*	public function dashboard(){
-		if($this->session->userdata("usuario")){
-			$data["nome"] = $this->session->userdata("usuario");
-			$this->load->view("feed",$data);
-		}else{
-			redirect('/login/form','refresh');
-		}
-	}
-*/	
 
-	
      //METODO CADASTRAR ALUNO
     public function cadastrar(){
 		$nome = $this->input->post("nome");
@@ -43,4 +31,19 @@ class Aluno extends CI_Controller {
 		redirect('home/form','refresh');
         
     }
+    
+    public function auth(){
+		$email = $this->input->post("email");
+		$senha = $this->input->post("senha");
+		require_once APPPATH."models/aluno.php";
+		$this->load->model('alunodao');
+		$aludao = $this->alunodao;
+		$aluno = $aludao->getUser($email,$senha);
+		if(isset($aluno)){
+			$this->session->set_userdata("aluno",$aluno->getNome());
+			redirect('feed/dashboard/','refresh');			
+		}else{
+		redirect('/home/form','refresh');
+        }
+	}
 }

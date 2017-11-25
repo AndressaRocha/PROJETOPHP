@@ -7,4 +7,13 @@ class Feed extends CI_Controller {
 	{
 		$this->load->view('feed');
 	}
+	
+	public function dashboard(){
+		if($this->session->userdata("aluno")){
+			$data["nome"] = $this->session->userdata("aluno");
+			$this->load->view("feed",$data);
+		}else{
+			redirect('/home/form','refresh');
+		}
+	}
 }
