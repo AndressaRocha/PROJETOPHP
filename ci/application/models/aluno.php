@@ -1,6 +1,5 @@
 <?php
-    require_once APPPATH."models/formulario.php";
-    require_once APPPATH."models/usuario.php";
+require_once APPPATH."models/usuario.php";
     class AlunoModel extends Usuario implements formulario{
         private $ra, $curso;
         
@@ -11,15 +10,6 @@
             $this->curso = $curso;
         }
          
-        
-        public function getCurso(){
-            return $this->curso;
-        }
-        
-        public function getRa(){
-            return $this->ra;
-        }
-
         public function toArray(){
             $aux = array();
             $aux["nome"] = $this->getNome();
@@ -32,10 +22,6 @@
 
         public function getClassName(){
             return "aluno";
-        }
-        
-        //METODO AUTH *USANDO POLIFORMISMO 
-        public function auth(){
         }
     }
 ?>

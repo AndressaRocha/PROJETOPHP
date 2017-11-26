@@ -145,15 +145,8 @@
                   <input type="email" class="form-control" placeholder="E-mail" name="email" required data-validation-required-message="Preencha o email">
                 <p class="help-block text-danger"></p>
                 
-                  <input type="email" class="form-control" placeholder="Confirme seu E-mail" name="confemail" required data-validation-required-message="Invalido!">
-                <p class="help-block text-danger"></p>
-                
                   <input type="password" minlength="8" class="form-control" placeholder="Senha" name="senha" required data-validation-required-message="Preencha a senha">
                 <p class="help-block text-danger"></p>
-                
-                  <input type="password" class="form-control" placeholder="Confirme sua senha" id="confsenha" required data-validation-required-message="Invalido!">
-                <p class="help-block text-danger"></p>
-                
                 
               </div>
           </div>

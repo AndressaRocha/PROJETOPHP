@@ -78,3 +78,7 @@
 [23-Nov-2017 16:38:22 UTC] PHP   4. Post->cadastrarAula() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
 [23-Nov-2017 16:38:22 UTC] PHP   5. require_once() /home/ubuntu/workspace/ci/application/controllers/Post.php:19
 [25-Nov-2017 11:52:37 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Aluno.php on line 53
+[25-Nov-2017 23:34:39 UTC] PHP Fatal error:  Class 'Usuario' not found in /home/ubuntu/workspace/ci/application/models/adm.php on line 3
+[25-Nov-2017 23:37:38 UTC] PHP Fatal error:  Cannot redeclare class Adm in /home/ubuntu/workspace/ci/application/models/adm.php on line 0
+[25-Nov-2017 23:41:58 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Adm.php on line 31
+[26-Nov-2017 00:41:46 UTC] PHP Fatal error:  Class 'Usuario' not found in /home/ubuntu/workspace/ci/application/models/aluno.php on line 2

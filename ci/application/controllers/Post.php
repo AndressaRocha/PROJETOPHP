@@ -22,6 +22,6 @@ class Post extends CI_Controller {
 		$insdao = $this->insertdao;
 		$insdao->insert($post);
 		$this->session->set_userdata("msg","Aula Cadastrado");
-		redirect('feed','refresh');
+		redirect('feed/dashboard','refresh');
     }
 }

@@ -27,7 +27,7 @@ class Aluno extends CI_Controller {
         
     }
     
-    public function auth(){
+	public function auth(){
 		$email = $this->input->post("email");
 		$senha = $this->input->post("senha");
 		require_once APPPATH."models/aluno.php";

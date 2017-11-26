@@ -1,32 +1,24 @@
 <?php
-    
-    class Adm extends Usuario{
-        private $cpf;
+
+require_once APPPATH."models/usuario.php";
+    class AdmModel extends Usuario{
+        private $ra;
         
-        public function __construct($cpf){
-            $this->cpf = $cpf;
+         public function __construct($id, $nome, $email, $senha){
+            parent:: __construct($id, $nome,$email, $senha);
+           
         }
         
         public function toArray(){
             $aux = array();
-            $aux["email"] = $this->email;
-            $aux["senha"] = $this->senha;
-            $aux["nome"] = $this->nome;
-            $aux["cpf"] = $this->cpf;
+            $aux["nome"] = $this->getNome();
+            $aux["email"] = $this->getEmail();
+            $aux["senha"] = $this->getSenha();
             return $aux;
         }
         
-        //METODO EXCLUIR ALUNO
-        public function excluir(){
-            
-        }
-        //METODO LOGIN POLIFORMISMO
-        public function login(){
-            
-        }
-    
         public function getClassName(){
-            return "Adm";
+            return "adm";
         }
     }
 ?>

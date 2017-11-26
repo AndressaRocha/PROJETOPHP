@@ -1,5 +1,5 @@
 <?php
-    class AlunoDAO extends CI_Model{
+    class Admdao extends CI_Model{
         
         public function getUser($email,$senha){
             //SELECT * FROM Usuario WHERE
