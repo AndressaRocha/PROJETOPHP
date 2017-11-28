@@ -1,0 +1,24 @@
+ id |      nome      | curso  |      ra      |                       email                        |        senha         
+----+----------------+--------+--------------+----------------------------------------------------+----------------------
+ 30 | Bárbara        | SI     | 53161832009  | tallytareis@gmail.com                              |                     
+ 31 | babs           | si     | 1234567890   | asuh@auhssau.com                                   | Oiju                
+ 32 |                |        |              |                                                    |                     
+ 34 | Andressa Rocha | SI     | 1554545454   | andressa@hotmail.com                               | andressa            
+ 35 | juciara        | si     | 01236654     | juciara@limasantos                                 | 147                 
+ 36 | Fugica         | fofura | 0147852      | fugica@fugica                                      | 123                 
+ 38 | Meire Lima     | SI     | 0236598      | meire.limas@teste                                  | 0123                
+ 39 | teste          | SI     | 0012365478   | juciara@limateste                                  | 023                 
+ 40 | teste2         | si     | 0012365      | teste2@teste                                       | 0123                
+ 41 | teste3         | si     | 0012365      | tste3@teset                                        | 012                 
+ 42 | teste4         | si     | teste4       | teste04@teste                                      | 014                 
+ 43 | teste05        | si     | 0258963      | teste05@teste                                      | 023                 
+ 44 | teste06        | si     | mascote      | teste06@teste                                      | 025                 
+ 46 | barbara        | si     | 50831612009  | barbara.reis@fatec.sp.gov.br                       | 12345               
+ 47 | Ana            | SI     | 123456       | julilibravo@g.com                                  | 123456              
+ 48 | teste07        | si     | 0321566      | teste7@teste                                       | 1236                
+ 49 | teste8         | si     | 012548       | teste8@teste                                       | 0125                
+ 50 | teste9         | si     | 02365        | teste9@teste                                       | 01254               
+ 51 | teste10        | si     | 0123647      | teste10@gmail                                      | 123                 
+ 52 | teste12        | si     | 0125478      | teste12@teste                                      | 012                 
+(20 rows)
+

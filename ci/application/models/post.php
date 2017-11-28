@@ -36,10 +36,7 @@ require_once APPPATH."models/formulario.php";
             return $this->disciplina;
         }
         
-        // METODO PUBLICAR NO FEED 
-        public function Publicar(){
-            
-        }
+      
         
         public function toArray(){
             $aux = array();
