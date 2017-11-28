@@ -84,3 +84,28 @@
 [26-Nov-2017 00:41:46 UTC] PHP Fatal error:  Class 'Usuario' not found in /home/ubuntu/workspace/ci/application/models/aluno.php on line 2
 [26-Nov-2017 00:50:04 UTC] PHP Fatal error:  Class AlunoModel contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::auth) in /home/ubuntu/workspace/ci/application/models/aluno.php on line 26
 [26-Nov-2017 00:53:20 UTC] PHP Fatal error:  Class AdmModel contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::auth) in /home/ubuntu/workspace/ci/application/models/adm.php on line 0
+[28-Nov-2017 17:22:55 UTC] PHP Fatal error:  Call to undefined function pg_fetch() in /home/ubuntu/workspace/ci/application/views/feed.php on line 88
+[28-Nov-2017 17:22:55 UTC] PHP Stack trace:
+[28-Nov-2017 17:22:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[28-Nov-2017 17:22:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[28-Nov-2017 17:22:55 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[28-Nov-2017 17:22:55 UTC] PHP   4. Feed->dashboard() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[28-Nov-2017 17:22:55 UTC] PHP   5. CI_Loader->view() /home/ubuntu/workspace/ci/application/controllers/Feed.php:14
+[28-Nov-2017 17:22:55 UTC] PHP   6. CI_Loader->_ci_load() /home/ubuntu/workspace/ci/system/core/Loader.php:489
+[28-Nov-2017 17:22:55 UTC] PHP   7. include() /home/ubuntu/workspace/ci/system/core/Loader.php:962
+[28-Nov-2017 17:52:07 UTC] PHP Fatal error:  Can't use function return value in write context in /home/ubuntu/workspace/ci/application/views/feed.php on line 115
+[28-Nov-2017 17:52:07 UTC] PHP Stack trace:
+[28-Nov-2017 17:52:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[28-Nov-2017 17:52:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[28-Nov-2017 17:52:07 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[28-Nov-2017 17:52:07 UTC] PHP   4. Feed->dashboard() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[28-Nov-2017 17:52:07 UTC] PHP   5. CI_Loader->view() /home/ubuntu/workspace/ci/application/controllers/Feed.php:14
+[28-Nov-2017 17:52:07 UTC] PHP   6. CI_Loader->_ci_load() /home/ubuntu/workspace/ci/system/core/Loader.php:489
+[28-Nov-2017 17:52:12 UTC] PHP Fatal error:  Can't use function return value in write context in /home/ubuntu/workspace/ci/application/views/feed.php on line 115
+[28-Nov-2017 17:52:12 UTC] PHP Stack trace:
+[28-Nov-2017 17:52:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[28-Nov-2017 17:52:12 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[28-Nov-2017 17:52:12 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[28-Nov-2017 17:52:12 UTC] PHP   4. Feed->dashboard() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[28-Nov-2017 17:52:12 UTC] PHP   5. CI_Loader->view() /home/ubuntu/workspace/ci/application/controllers/Feed.php:14
+[28-Nov-2017 17:52:12 UTC] PHP   6. CI_Loader->_ci_load() /home/ubuntu/workspace/ci/system/core/Loader.php:489
