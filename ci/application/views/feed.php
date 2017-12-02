@@ -72,36 +72,11 @@
           <div class="post-preview">
             <a href="post.html">
               <h2 class="post-title">
-              <?php
-               $conexao ="host=ec2-54-225-70-53.compute-1.amazonaws.com dbname=dfp40ijrkmhu6a port=5432 user=xffdkafftupmfc password=f9ab8019fc49e4d65682709f7b49f3e46679f91e3f5e7c840591c916411cc81e";
-               $db = pg_connect($conexao); // aqui ele executa a conexão com o DNS da variavel $conexao
-               $query = "select titulo from post order by id desc LIMIT 1";
-               $resultado = pg_query($db,$query);
-                while($linha = pg_fetch_array($resultado)) { 
-                  echo $linha['titulo'] . " <br>";
-                }
-               pg_close($db);
-              ?>
+              Titulo
               </h2>
-        
-        <h3 class="post-subtitle">
-                
-         <?php 
-          $conexao ="host=ec2-54-225-70-53.compute-1.amazonaws.com dbname=dfp40ijrkmhu6a port=5432 user=xffdkafftupmfc password=f9ab8019fc49e4d65682709f7b49f3e46679f91e3f5e7c840591c916411cc81e";
-          $db = pg_connect($conexao); // aqui ele executa a conexão com o DNS da variavel $conexao
-          $query = "select * from post order by id desc LIMIT 1";
-          $resultado = pg_query($db,$query); // Executa a query $query na conexão $db
-        
-          while($linha = pg_fetch_array($resultado)) { //aqui troquei para arrays, este loop declara a variavel $linha (ela representa o resultado da query), e o loop lê linha a linha do retorno
-            echo "Disciplina: " .$linha['disciplina'] . "<br>";
-            echo "Data: " .$linha['data'] . " <br>";
-            echo "Hora: " .$linha['hora'] . " <br>";
-            echo "Descricao: " .$linha['descricao'] . " <br>";
-          }
-          pg_close($db); // Fecha a conexão com a $db
-          ?>
-          
-           </h3>
+             <h3 class="post-subtitle">
+               We predict too much for the next year and yet far too little for the next ten.
+             </h3>
             </a>
             <p class="post-meta">Posted by
               <a href="#">Start Bootstrap</a>
@@ -111,32 +86,10 @@
           <div class="post-preview">
             <a href="post.html">
               <h2 class="post-title">
-                <?php
-               $conexao ="host=ec2-54-225-70-53.compute-1.amazonaws.com dbname=dfp40ijrkmhu6a port=5432 user=xffdkafftupmfc password=f9ab8019fc49e4d65682709f7b49f3e46679f91e3f5e7c840591c916411cc81e";
-               $db = pg_connect($conexao); // aqui ele executa a conexão com o DNS da variavel $conexao
-               $query = "select titulo from post LIMIT 1";
-               $resultado = pg_query($db,$query);
-                while($linha = pg_fetch_array($resultado)) { 
-                  echo $linha['titulo'] . " <br>";
-                }
-               pg_close($db);
-              ?>
+               Titulo
               </h2>
               <h3 class="post-subtitle">
-           <?php 
-          $conexao ="host=ec2-54-225-70-53.compute-1.amazonaws.com dbname=dfp40ijrkmhu6a port=5432 user=xffdkafftupmfc password=f9ab8019fc49e4d65682709f7b49f3e46679f91e3f5e7c840591c916411cc81e";
-          $db = pg_connect($conexao); // aqui ele executa a conexão com o DNS da variavel $conexao
-          $query = "select * from post LIMIT 1";
-          $resultado = pg_query($db,$query); // Executa a query $query na conexão $db
-        
-          while($linha = pg_fetch_array($resultado)) { //aqui troquei para arrays, este loop declara a variavel $linha (ela representa o resultado da query), e o loop lê linha a linha do retorno
-            echo "Disciplina: " .$linha['disciplina'] . "<br>";
-            echo "Data: " .$linha['data'] . " <br>";
-            echo "Hora: " .$linha['hora'] . " <br>";
-            echo "Descricao: " .$linha['descricao'] . " <br>";
-          }
-          pg_close($db); // Fecha a conexão com a $db
-          ?>
+                We predict too much for the next year and yet far too little for the next ten.
                           
               </h3>
             </a>
