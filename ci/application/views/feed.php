@@ -72,7 +72,7 @@
           <div class="post-preview">
             <a href="post.html">
               <h2 class="post-title">
-              Titulo
+              Titulo aq <?php echo $titulo;?>
               </h2>
              <h3 class="post-subtitle">
                We predict too much for the next year and yet far too little for the next ten.

@@ -16,4 +16,16 @@ class Feed extends CI_Controller {
 			redirect('/home/form','refresh');
 		}
 	}
+
+	// Chamada 02/12
+	public function post(){
+		if($this->session->userdata("post")){
+			$data["titulo"] = $this->session->userdata("post");
+			
+			$this->load->view("feed",$data);
+		}else{
+			
+		}
+	}
+	
 }
