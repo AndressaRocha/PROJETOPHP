@@ -75,13 +75,18 @@
               TITULO 
               </h2>
              <h3 class="post-subtitle">
-               <?php if ($dados != false): ?>
-                 <?php foreach ($dados as $dado): ?>
-                 <?=$dado->titulo ?>
-               <?php endforeach; ?>
-               <?php else: ?>
-                 <p>Não há registros cadastrados!</p>
-               <?php endif ?>
+              <?php if ($dados != false){ 
+                  foreach ($dados as $dado){ 
+                     echo  "<td>" . $dado->titulo . "</td>";
+                     echo "<td>" . $dado->disciplina . "</td>";
+                     echo "<td>" . $dado->data . "</td>";
+                     echo "<td>" . $dado->hora . "</td>";
+                     echo "<td>" . $dado->descricao . "</td>";
+                  } 
+              }else{
+                 echo "Não há registros cadastrados!";
+               } 
+               ?>
              </h3>
             </a>
             <p class="post-meta">Posted by

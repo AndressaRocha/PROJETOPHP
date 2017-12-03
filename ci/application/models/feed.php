@@ -1,11 +1,14 @@
 <?php
     
-    class Feed extends Post{
+    class Feed extends PostModel{ //post
+        
         
         //METODO MOSTRAR AULAS CADASTRADAS 02/12 
         
-        public function Mostrar(){
+        public function mostrar(){
             $this->db->order_by('titulo', 'asc');
+           // return $this->db->get($this->post);
+            
             $query = $this->db->get('post');
                  if ($query->num_rows() > 0)
                 {

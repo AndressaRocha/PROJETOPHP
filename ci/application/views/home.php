@@ -170,12 +170,18 @@
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>+55 13 99163-8883</p>
+            <p>+55 13 9999-9999</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
+              <a href="mailto:andressarochamorgado@hotmali.com">andressarochamorgado@hotmali.com</a>
+            </p>
+            <p>
               <a href="mailto:juciara.slima@gmail.com">juciara.slima@gmail.com</a>
+            </p>
+            <p>
+              <a href="tallytareis@gmail.com">tallytareis@gmail.com</a>
             </p>
           </div>
         </div>

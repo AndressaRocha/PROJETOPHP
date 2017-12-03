@@ -1,5 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+//require_once APPPATH."models/feed.php";
+//require_once APPPATH."models/post.php";
 
 class Feed extends CI_Controller {
 
@@ -7,7 +9,6 @@ class Feed extends CI_Controller {
 	{
 		$this->load->view('feed');
 	}
-	
 	
 	public function dashboard(){
 		if($this->session->userdata("aluno")){
@@ -20,8 +21,8 @@ class Feed extends CI_Controller {
 
 	// Chamada 02/12
 	public function post(){
-		$data['dados'] = $this->feed->Mostrar();
-	    $this->load->view('feed',$data);
+		$data["dados"] = $this->feed->Mostrar();
+	    $this->load->view("feed",$data);
 	}
 	
 }
