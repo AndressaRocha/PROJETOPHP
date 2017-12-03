@@ -8,6 +8,7 @@ class Feed extends CI_Controller {
 		$this->load->view('feed');
 	}
 	
+	
 	public function dashboard(){
 		if($this->session->userdata("aluno")){
 			$data["nome"] = $this->session->userdata("aluno");
@@ -19,13 +20,8 @@ class Feed extends CI_Controller {
 
 	// Chamada 02/12
 	public function post(){
-		if($this->session->userdata("post")){
-			$data["titulo"] = $this->session->userdata("post");
-			
-			$this->load->view("feed",$data);
-		}else{
-			
-		}
+		$data['dados'] = $this->feed->Mostrar();
+	    $this->load->view('feed',$data);
 	}
 	
 }

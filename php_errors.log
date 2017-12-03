@@ -109,3 +109,29 @@
 [28-Nov-2017 17:52:12 UTC] PHP   4. Feed->dashboard() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
 [28-Nov-2017 17:52:12 UTC] PHP   5. CI_Loader->view() /home/ubuntu/workspace/ci/application/controllers/Feed.php:14
 [28-Nov-2017 17:52:12 UTC] PHP   6. CI_Loader->_ci_load() /home/ubuntu/workspace/ci/system/core/Loader.php:489
+[02-Dec-2017 23:20:39 UTC] PHP Fatal error:  Call to undefined function __construct() in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 13
+[02-Dec-2017 23:20:39 UTC] PHP Stack trace:
+[02-Dec-2017 23:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[02-Dec-2017 23:20:39 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[02-Dec-2017 23:20:39 UTC] PHP   3. Feed->__construct() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:518
+[02-Dec-2017 23:20:41 UTC] PHP Fatal error:  Call to undefined function __construct() in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 13
+[02-Dec-2017 23:20:41 UTC] PHP Stack trace:
+[02-Dec-2017 23:20:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[02-Dec-2017 23:20:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[02-Dec-2017 23:20:41 UTC] PHP   3. Feed->__construct() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:518
+[02-Dec-2017 23:29:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ci/application/views/feed.php on line 164
+[02-Dec-2017 23:29:22 UTC] PHP Stack trace:
+[02-Dec-2017 23:29:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[02-Dec-2017 23:29:22 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[02-Dec-2017 23:29:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[02-Dec-2017 23:29:22 UTC] PHP   4. Feed->dashboard() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[02-Dec-2017 23:29:22 UTC] PHP   5. CI_Loader->view() /home/ubuntu/workspace/ci/application/controllers/Feed.php:15
+[02-Dec-2017 23:29:22 UTC] PHP   6. CI_Loader->_ci_load() /home/ubuntu/workspace/ci/system/core/Loader.php:489
+[02-Dec-2017 23:29:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ci/application/views/feed.php on line 164
+[02-Dec-2017 23:29:25 UTC] PHP Stack trace:
+[02-Dec-2017 23:29:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[02-Dec-2017 23:29:25 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[02-Dec-2017 23:29:25 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[02-Dec-2017 23:29:25 UTC] PHP   4. Feed->dashboard() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[02-Dec-2017 23:29:25 UTC] PHP   5. CI_Loader->view() /home/ubuntu/workspace/ci/application/controllers/Feed.php:15
+[02-Dec-2017 23:29:25 UTC] PHP   6. CI_Loader->_ci_load() /home/ubuntu/workspace/ci/system/core/Loader.php:489
