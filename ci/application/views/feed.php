@@ -122,7 +122,7 @@
               <li class="list-inline-item">
               </li>
             </ul>
-            <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
+            <p class="copyright text-muted">Copyright - <a href="/ci/index.php/modalExcluir/">Excluir Sua Conta</a></p>
           </div>
         </div>
       </div>

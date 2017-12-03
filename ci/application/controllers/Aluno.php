@@ -41,4 +41,15 @@ class Aluno extends CI_Controller {
 		redirect('/home/form','refresh');
         }
 	}
+	public function excluir(){
+		$senha = $this->input->post("senha");
+		require_once APPPATH."models/aluno.php";
+		$this->load->model('alunodao');
+		$aludao = $this->alunodao;
+		$aluno = $aludao->getSenha($senha);
+		if(isset($aluno)){
+			$this->session->unset_userdata("aluno");
+			$this->db->row_delete($senha);
+        }
+	}
 }

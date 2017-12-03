@@ -21,6 +21,22 @@
             }
     
         }
+        public function getSenha($senha){
+            //SELECT * FROM Usuario WHERE
+            //email = $email AND senha = $senha 
+		    $this->db->where('senha',$senha);
+		    $alu = $this->db->get('aluno');
+		    require_once APPPATH."models/aluno.php";
+		    if ($alu->num_rows()>0){
+		        //SE FOSSEM VARIOS, FOR
+		        $this->db->where ('senha',$senha);
+		        $this->db->delete('aluno');
+		        redirect ('home/form',refresh);
+            }else{
+                return null;
+            }
+    
+        }
     }
     
 ?>
