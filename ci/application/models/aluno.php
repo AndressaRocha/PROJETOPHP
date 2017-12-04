@@ -23,20 +23,7 @@ require_once APPPATH."models/usuario.php";
         public function getClassName(){
             return "aluno";
         }
-        
-        public function auth(){
-		$email = $this->input->post("email");
-		$senha = $this->input->post("senha");
-		require_once APPPATH."models/aluno.php";
-		$this->load->model('alunodao');
-		$aludao = $this->alunodao;
-		$aluno = $aludao->getUser($email,$senha);
-		if(isset($aluno)){
-			$this->session->set_userdata("aluno",$aluno->getNome());
-			redirect('feed/dashboard/','refresh');			
-		}else{
-		redirect('/home/form','refresh');
-        }
+    
 	}
-    }
+
 ?>

@@ -30,7 +30,9 @@
         
         
         //METODO LOGIN 
-    abstract public function auth();
+     public function auth(){
+         
+     }
         
     }
 ?>

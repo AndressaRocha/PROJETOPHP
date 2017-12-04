@@ -66,7 +66,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | The $active_group variable lets you choose which connection group to
 | make active.  By default there is only one group (the 'default' group).
-|
+|psql -h ec2-54-225-70-53.compute-1.amazonaws.com -U xffdkafftupmfc -d dfp40ijrkmhu6a
+
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */

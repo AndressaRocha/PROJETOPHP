@@ -21,7 +21,7 @@ require_once APPPATH."models/usuario.php";
             return "adm";
         }
     
-        
+        //funcão abstrata obrigatoria nas classes filhas
         public function auth(){
 		$email = $this->input->post("email");
 		$senha = $this->input->post("senha");

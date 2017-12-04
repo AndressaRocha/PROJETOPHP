@@ -277,3 +277,11 @@
 [03-Dec-2017 17:36:27 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
 [03-Dec-2017 17:36:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:411
 [03-Dec-2017 17:36:27 UTC] PHP   4. require_once() /home/ubuntu/workspace/ci/application/controllers/Feed.php:3
+[03-Dec-2017 23:10:35 UTC] PHP Fatal error:  Class AlunoModel contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::auth) in /home/ubuntu/workspace/ci/application/models/aluno.php on line 42
+[03-Dec-2017 23:33:56 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/ci/application/controllers/Aluno.php on line 31
+[03-Dec-2017 23:34:30 UTC] PHP Fatal error:  Class 'CI_Controllerz' not found in /home/ubuntu/workspace/ci/application/controllers/Aluno.php on line 5
+[03-Dec-2017 23:35:20 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ci/application/models/aluno.php on line 30
+[03-Dec-2017 23:35:45 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ci/application/models/aluno.php on line 30
+[03-Dec-2017 23:36:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ci/application/models/aluno.php on line 28
+[03-Dec-2017 23:36:32 UTC] PHP Fatal error:  Class AlunoModel contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::auth) in /home/ubuntu/workspace/ci/application/models/aluno.php on line 27
+[03-Dec-2017 23:37:23 UTC] PHP Fatal error:  Non-abstract method Usuario::auth() must contain body in /home/ubuntu/workspace/ci/application/models/usuario.php on line 33

@@ -16,8 +16,8 @@
 
     <!-- Custom fonts for this template -->
     <link href="<?= base_url(); ?>assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='<?= base_url(); ?>https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='<?= base_url(); ?>https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
     <!-- Plugin CSS -->
     <link href="<?= base_url(); ?>assets/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -49,8 +49,8 @@
             </li>
           </ul>
           <form action="/ci/index.php/aluno/auth" method="post" class="formulario">
-            <label class="form-login">E-mail: </label> <input type="email" name="email"/>
-            <label class="form-login">Senha: </label><input type="password" name="senha"/>
+            <label class="form-login">E-mail: </label> <input type="email" name="email" id="email1" required/>
+            <label class="form-login">Senha: </label><input type="password" name="senha" id="senha1" required/>
             <input type="submit" value="Login" class="btn btn-primary btn-xl-1 js-scroll-trigger"/>
         </form>
         </div>
@@ -128,24 +128,24 @@
             <div>
                <p> <?php echo $msg;?></p>
             </div>
-             <form action="/ci/index.php/aluno/cadastro/" method="post" name="sentMessage" id="contactForm" novalidate>
+             <form action="/ci/index.php/aluno/cadastro/" method="post">
               
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
               
-                  <input type="text" class="form-control" placeholder="Nome" name="nome" required data-validation-required-message="Preencha o nome">
+                  <input type="text" class="form-control" placeholder="Nome" name="nome" id="nome" required/>
                 <p class="help-block text-danger"></p>
                 
-                <input type="text" maxlength="50" class="form-control" placeholder="Curso" name="curso" required data-validation-required-message="Invalido!">
+                <input type="text" maxlength="50" class="form-control" placeholder="Curso" name="curso" id="curso" required/>
                 <p class="help-block text-danger"></p>
                 
-                <input type="text" maxlength="12" minlength="12" class="form-control" placeholder="R.A" name="ra" required data-validation-required-message="Preencha a senha">
+                <input type="text" maxlength="12" minlength="12" class="form-control" placeholder="R.A" name="ra" id="ra" required/>
                 <p class="help-block text-danger"></p>
                  
-                  <input type="email" class="form-control" placeholder="E-mail" name="email" required data-validation-required-message="Preencha o email">
+                  <input type="email" class="form-control" placeholder="E-mail" name="email" id="email" required/>
                 <p class="help-block text-danger"></p>
                 
-                  <input type="password" minlength="8" class="form-control" placeholder="Senha" name="senha" required data-validation-required-message="Preencha a senha">
+                  <input type="password" minlength="8" class="form-control" placeholder="Senha" name="senha" id="senha" required/>
                 <p class="help-block text-danger"></p>
                 
               </div>
@@ -175,7 +175,7 @@
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:andressarochamorgado@hotmali.com">andressarochamorgado@hotmali.com</a>
+              <a href="mailto:andressarochamorgado@hotmali.com">andressarochamorgado@hotmail.com</a>
             </p>
             <p>
               <a href="mailto:juciara.slima@gmail.com">juciara.slima@gmail.com</a>
