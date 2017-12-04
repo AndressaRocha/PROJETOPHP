@@ -1,33 +1,27 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-require_once APPPATH."models/feed.php";
 
 class Feed extends CI_Controller {
 
-	public function index(){
+	public function index() {
 		$this->load->view('feed');
 	}
 	
-	public function dashboard (){
+	public function dashboard() {
+		$data = array();
+		
+		$this->load->model('FeedModel');
+		
 		if($this->session->userdata("aluno")){
 			$data["nome"] = $this->session->userdata("aluno");
-			$data["aula"] = $this->session->userdata("aula");
 			$data["dados"] = $this->session->userdata("post");
-		  //  echo print_r($data);
-			$this->session->unset_userdata("aula");
-			$this->session->unset_userdata("post");
+			$data["aula"] = $this->session->userdata("aula");
+			
+			$data["posts"] = $this->FeedModel->getmostrar();
 			
 			$this->load->view("feed",$data);
-			}
-		else{
+		} else{
 			redirect('/home/form','refresh');
-			}
+		}
 	}
-	
-
-	public function listar(){
-	
-		
-	}
-		 }
-
+}

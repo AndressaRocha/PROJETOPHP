@@ -67,35 +67,31 @@
 
     <!-- Main Content -->
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-            <a href="post.html">
-              <p> <?php echo $aula;?></p>
-              <h2 class="post-title">
-              TITULO 
-              </h2>
-             <h3 class="post-subtitle">
-            
-            <?php if(is_array($dados)): ?>
-            <?php foreach($dados as $dado):?>
-              <p><?$dado->id; ?></p> 
-              <p><?$dado->titulo; ?></p> 
-              <p><?$dado->disciplina; ?></p> 
-              <p><?$dado->data; ?></p> 
-              <p><?$dado->hora; ?></p> 
-              <p><?$dado->descricao; ?></p> 
-           <?php endforeach;?>
-           <?php endif; ?>
-               
-             </h3>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on September 24, 2017</p>
+      
+       <!-- $posts não está vazio? -->
+      <?php if(!empty($posts)) { ?>
+      
+        <?php foreach($posts as $post){ ?>
+        
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="post-preview">
+              <h2 class="post-title" style="text-transform: capitalize;"><?php echo $post->titulo; ?> da <?php echo $nome; ?></h2>
+              
+                <p><?php echo $post->disciplina; ?></p> 
+                <p><?php echo $post->data; ?></p> 
+                <p><?php echo $post->hora; ?></p> 
+                <p><?php echo $post->descricao; ?></p> 
+            </div>
+            </div>
           </div>
-         
-
+          
+        <?php } ?>
+        
+      <?php } ?>
+      
+    </div>
+    
     <hr>
     <!-- Footer -->
     <footer>
