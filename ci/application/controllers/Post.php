@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 require_once APPPATH."models/aluno.php";
+require_once APPPATH."models/PostModel.php";
 
 class Post extends CI_Controller {
 
@@ -16,7 +17,7 @@ class Post extends CI_Controller {
 		$data = $this->input->post("data");
 		$hora = $this->input->post("hora");
 		$descricao = $this->input->post("descricao");
-		require_once APPPATH."models/post.php";
+		require_once APPPATH."models/PostModel.php";
 		$post = new PostModel(0,$titulo,$disciplina,$data,$hora,$descricao);
 		$this->load->model('insertdao');
 		$insdao = $this->insertdao;
