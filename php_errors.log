@@ -413,3 +413,155 @@
 [04-Dec-2017 17:30:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
 [04-Dec-2017 17:30:22 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
 [04-Dec-2017 17:30:22 UTC] PHP   5. AlunoDAO->mostrar() /home/ubuntu/workspace/ci/application/controllers/Feed.php:33
+[04-Dec-2017 19:45:27 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/ci/application/models/feed.php on line 30
+[04-Dec-2017 19:45:27 UTC] PHP Stack trace:
+[04-Dec-2017 19:45:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 19:45:27 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 19:45:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:411
+[04-Dec-2017 19:46:06 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/ci/application/models/feed.php on line 30
+[04-Dec-2017 19:46:06 UTC] PHP Stack trace:
+[04-Dec-2017 19:46:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 19:46:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 19:46:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:411
+[04-Dec-2017 19:47:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ci/application/views/feed.php on line 137
+[04-Dec-2017 19:47:00 UTC] PHP Stack trace:
+[04-Dec-2017 19:47:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 19:47:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 19:47:00 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 19:47:00 UTC] PHP   4. Feed->dashboard() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 19:47:00 UTC] PHP   5. CI_Loader->view() /home/ubuntu/workspace/ci/application/controllers/Feed.php:20
+[04-Dec-2017 19:47:00 UTC] PHP   6. CI_Loader->_ci_load() /home/ubuntu/workspace/ci/system/core/Loader.php:489
+[04-Dec-2017 19:55:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ci/application/views/feed.php on line 136
+[04-Dec-2017 19:55:14 UTC] PHP Stack trace:
+[04-Dec-2017 19:55:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 19:55:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 19:55:14 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 19:55:14 UTC] PHP   4. Feed->dashboard() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 19:55:14 UTC] PHP   5. CI_Loader->view() /home/ubuntu/workspace/ci/application/controllers/Feed.php:17
+[04-Dec-2017 19:55:14 UTC] PHP   6. CI_Loader->_ci_load() /home/ubuntu/workspace/ci/system/core/Loader.php:489
+[04-Dec-2017 19:57:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ci/application/views/feed.php on line 136
+[04-Dec-2017 19:57:05 UTC] PHP Stack trace:
+[04-Dec-2017 19:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 19:57:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 19:57:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 19:57:05 UTC] PHP   4. Feed->dashboard() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 19:57:05 UTC] PHP   5. CI_Loader->view() /home/ubuntu/workspace/ci/application/controllers/Feed.php:17
+[04-Dec-2017 19:57:05 UTC] PHP   6. CI_Loader->_ci_load() /home/ubuntu/workspace/ci/system/core/Loader.php:489
+[04-Dec-2017 19:58:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ci/application/views/feed.php on line 136
+[04-Dec-2017 19:58:42 UTC] PHP Stack trace:
+[04-Dec-2017 19:58:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 19:58:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 19:58:42 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 19:58:42 UTC] PHP   4. Feed->dashboard() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 19:58:42 UTC] PHP   5. CI_Loader->view() /home/ubuntu/workspace/ci/application/controllers/Feed.php:17
+[04-Dec-2017 19:58:42 UTC] PHP   6. CI_Loader->_ci_load() /home/ubuntu/workspace/ci/system/core/Loader.php:489
+[04-Dec-2017 20:08:44 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:08:44 UTC] PHP Stack trace:
+[04-Dec-2017 20:08:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:08:44 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:08:44 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:08:44 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:09:11 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:09:11 UTC] PHP Stack trace:
+[04-Dec-2017 20:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:09:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:09:11 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:09:11 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:09:14 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:09:14 UTC] PHP Stack trace:
+[04-Dec-2017 20:09:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:09:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:09:14 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:09:14 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:10:07 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:10:07 UTC] PHP Stack trace:
+[04-Dec-2017 20:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:10:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:10:07 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:10:07 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:10:21 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:10:21 UTC] PHP Stack trace:
+[04-Dec-2017 20:10:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:10:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:10:21 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:10:21 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:10:46 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:10:46 UTC] PHP Stack trace:
+[04-Dec-2017 20:10:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:10:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:10:46 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:10:46 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:10:49 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:10:49 UTC] PHP Stack trace:
+[04-Dec-2017 20:10:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:10:49 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:10:49 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:10:49 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:12:06 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:12:06 UTC] PHP Stack trace:
+[04-Dec-2017 20:12:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:12:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:12:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:12:06 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:12:56 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:12:56 UTC] PHP Stack trace:
+[04-Dec-2017 20:12:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:12:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:12:56 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:12:56 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:12:58 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:12:58 UTC] PHP Stack trace:
+[04-Dec-2017 20:12:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:12:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:12:58 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:12:58 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:13:30 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:13:30 UTC] PHP Stack trace:
+[04-Dec-2017 20:13:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:13:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:13:30 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:13:30 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:13:58 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:13:58 UTC] PHP Stack trace:
+[04-Dec-2017 20:13:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:13:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:13:58 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:13:58 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:20:06 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:20:06 UTC] PHP Stack trace:
+[04-Dec-2017 20:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:20:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:20:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:20:06 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:20:30 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:20:30 UTC] PHP Stack trace:
+[04-Dec-2017 20:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:20:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:20:30 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:20:30 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:20:48 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:20:48 UTC] PHP Stack trace:
+[04-Dec-2017 20:20:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:20:48 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:20:48 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:20:48 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:22:51 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:22:51 UTC] PHP Stack trace:
+[04-Dec-2017 20:22:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:22:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:22:51 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:22:51 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:23:07 UTC] PHP Fatal error:  Call to a member function getmostrar() on a non-object in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 27
+[04-Dec-2017 20:23:07 UTC] PHP Stack trace:
+[04-Dec-2017 20:23:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:23:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:23:07 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:23:07 UTC] PHP   4. Feed->listar() /home/ubuntu/workspace/ci/system/core/CodeIgniter.php:532
+[04-Dec-2017 20:30:36 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 33
+[04-Dec-2017 20:30:36 UTC] PHP Stack trace:
+[04-Dec-2017 20:30:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:30:36 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315
+[04-Dec-2017 20:31:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ci/application/controllers/Feed.php on line 38
+[04-Dec-2017 20:31:58 UTC] PHP Stack trace:
+[04-Dec-2017 20:31:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ci/index.php:0
+[04-Dec-2017 20:31:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/ci/index.php:315

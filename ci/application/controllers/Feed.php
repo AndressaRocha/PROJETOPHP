@@ -4,45 +4,30 @@ require_once APPPATH."models/feed.php";
 
 class Feed extends CI_Controller {
 
-	public function index()
-	{
+	public function index(){
 		$this->load->view('feed');
 	}
 	
-	public function dashboard(){
+	public function dashboard (){
 		if($this->session->userdata("aluno")){
 			$data["nome"] = $this->session->userdata("aluno");
 			$data["aula"] = $this->session->userdata("aula");
-		    $data["dados"] = $this->session->userdata("post");
-		    
-		    
+			$data["dados"] = $this->session->userdata("post");
+		  //  echo print_r($data);
+			$this->session->unset_userdata("aula");
+			$this->session->unset_userdata("post");
 			
 			$this->load->view("feed",$data);
-				$this->session->unset_userdata("aula");
-		}else{
+			}
+		else{
 			redirect('/home/form','refresh');
-		}
+			}
 	}
 	
 
+	public function listar(){
 	
-	public function listar (){
-			require_once APPPATH."models/post.php";
-			$this->load->model('alunodao');
-			$aludao = $this->alunodao;
-		//	$dados = $aludao->mostrar();
-			
-			$this->db->where('id');
-            $dados = $this->db->get('post');
-            print_r($dados);
-                 if ($dados->num_rows()>0)
-                {
-                  return $dados->result();
-                }
-                  else
-                {
-                  return false;
-                }
+		
 	}
-	
-}
+		 }
+

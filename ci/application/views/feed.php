@@ -76,47 +76,25 @@
               TITULO 
               </h2>
              <h3 class="post-subtitle">
-              <?php if ($dados != false){ 
-                  foreach ($dados as $dado){ 
-                     echo $dado->titulo;
-                     echo $dado->disciplina;
-                     echo $dado->data;
-                     echo $dado->hora;
-                     echo $dado->descricao;
-                  } 
-              }else{
-                 echo "Não há registros cadastrados!";
-               } 
-               ?>
+            
+            <?php if(is_array($dados)): ?>
+            <?php foreach($dados as $dado):?>
+              <p><?$dado->id; ?></p> 
+              <p><?$dado->titulo; ?></p> 
+              <p><?$dado->disciplina; ?></p> 
+              <p><?$dado->data; ?></p> 
+              <p><?$dado->hora; ?></p> 
+              <p><?$dado->descricao; ?></p> 
+           <?php endforeach;?>
+           <?php endif; ?>
+               
              </h3>
             </a>
             <p class="post-meta">Posted by
               <a href="#">Start Bootstrap</a>
               on September 24, 2017</p>
           </div>
-          
-          <hr>
-          <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                Failure is not an option
-              </h2>
-              <h3 class="post-subtitle">
-                Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-              </h3>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on July 8, 2017</p>
-          </div>
-          <hr>
-          <!-- Pager -->
-          <div class="clearfix">
-            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-          </div>
-        </div>
-      </div>
-    </div>
+         
 
     <hr>
     <!-- Footer -->
@@ -142,5 +120,4 @@
     <script src="assets2/js/clean-blog.min.js"></script>
 
   </body>
-
 </html>

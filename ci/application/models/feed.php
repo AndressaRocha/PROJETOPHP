@@ -2,33 +2,26 @@
 require_once APPPATH."models/post.php";   
     class FeedModel extends PostModel{ //post
         
-        
-        //METODO MOSTRAR AULAS CADASTRADAS 02/12 
-        
-       /*public function mostrar(){
-            $this->db->select("*");
-            $this->db->from("post");
-            $this->db->order_by('id', 'DESC');
-            return $dados = $this->db->get()->result_array();
-           
-           /* $this->db->order_by('titulo', 'asc');
-            $query = $this->db->get('post');
-                 if ($query->num_rows() > 0)
-                {
-                  return $query->result();
-                }
-                  else
-                {
-                  return false;
-                }
+        public function getmostrar(){
+	    $dados = $this->db->get_where('post', array('titulo' => $titulo));
+	    require_once APPPATH."models/PostModel.php";
+	    if($dados->num_rows() > 0){
+	        $dado = $dados->result()[0];
+	        $id = $dado->id;
+	        $titulo = $dado->titulo;
+	        $disciplina = $dado->disciplina;
+	        $data = $dado->data;
+	        $hora = $dado->hora;
+	        $descricao = $dado->descricao;
+	        return new PostModel($id, $titulo, $disciplina, $data, $hora, $descricao);
+	    }
+	    else{
+	        return null;
+	    }
+	}
              
-       }*/
+       
         
-        
-        //METODO PESQUISAR AULA  
-        public function Pesquisar(){
-            
-        }
     
         public function getClassName(){
             return "Feed";
