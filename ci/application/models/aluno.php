@@ -1,5 +1,6 @@
 <?php
 require_once APPPATH."models/usuario.php";
+require_once APPPATH."models/formulario.php";
     class AlunoModel extends Usuario implements formulario{
         private $ra, $curso;
         

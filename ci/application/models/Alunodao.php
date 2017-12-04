@@ -13,9 +13,11 @@
 		        $aluno = $alu->result()[0];
 		        $id = $aluno->id;
 		        $nome = $aluno->nome;
-		        $emailAlu = $aluno->email;
-		        $senhaAlu = $aluno->senha;
-		        return new AlunoModel($id,$nome,$emailAlu,$senhaAlu);
+		        $curso = $aluno->curso;
+		        $ra = $aluno->ra;
+		        $email = $aluno->email;
+		        $senha = $aluno->senha;
+		        return new AlunoModel($id,$nome,$curso,$ra,$email,$senha);
             }else{
                 return null;
             }
