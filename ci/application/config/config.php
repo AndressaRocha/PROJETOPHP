@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 -|
 +|
  */
-$config['base_url'] = 'https://projeto-andressarocha.c9users.io/ci/';
+$config['base_url'] = 'https://projeto1-bbreis.c9users.io/ci/';
  
 
 $config['index_page'] = 'index.php';

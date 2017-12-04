@@ -10,4 +10,4 @@ $route['aluno/cadastro'] = 'aluno/cadastrar';
 $route['post/cadastrarAula'] = 'post/cadastrarAula';
 $route['logout'] = 'aluno/sair';
 $route['excluirConta'] = 'aluno/excluir';
-$route[''] = '/feed/dashboard';
+$route['pesquisa'] = 'feed/pesquisa';

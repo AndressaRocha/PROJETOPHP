@@ -7,6 +7,10 @@ class Feed extends CI_Controller {
 		$this->load->view('feed');
 	}
 	
+	public function pesquisa() {
+		$this->load->view('pesquisar');
+	}
+	
 	public function dashboard() {
 		$data = array();
 		
@@ -24,4 +28,5 @@ class Feed extends CI_Controller {
 			redirect('/home/form','refresh');
 		}
 	}
+	
 }

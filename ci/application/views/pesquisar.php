@@ -28,22 +28,20 @@
       <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <h1> BEM-VINDO, <?php echo $nome;?></h1>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-           
+            <li class="nav-item">
+              <a class="nav-link" href="/ci/index.php/feed/">Pesquisar</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="/ci/index.php/feed/dashboard">Feed</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/ci/index.php/post/">Cadastre uma aula</a>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link" href="/ci/index.php/pesquisa/">Pesquisar</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/ci/index.php/logout/">Sair</a>
@@ -61,14 +59,36 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>Painel do aluno </h1>
-              <span class="subheading">Bem vindo ao seu feed de aulas, publique ou participe de alguma</span>
+              <h1>PESQUISAR</h1>
             </div>
           </div>
         </div>
       </div>
     </header>
-
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Preencha o campo com o nome da disciplina que deseja pesquisar.</p>
+          
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Disciplina</label>
+                <input type="text" class="form-control" placeholder="Disciplina" id="disciplina required data-validation-required-message="Preencha a disciplina">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary" id="pesquisar">Pesquisar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     <!-- Main Content -->
     <div class="container">
       
