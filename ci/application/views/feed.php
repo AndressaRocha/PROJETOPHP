@@ -78,11 +78,11 @@
              <h3 class="post-subtitle">
               <?php if ($dados != false){ 
                   foreach ($dados as $dado){ 
-                     echo  "<td>" . $dado->titulo . "</td>";
-                     echo "<td>" . $dado->disciplina . "</td>";
-                     echo "<td>" . $dado->data . "</td>";
-                     echo "<td>" . $dado->hora . "</td>";
-                     echo "<td>" . $dado->descricao . "</td>";
+                     echo $dado->titulo;
+                     echo $dado->disciplina;
+                     echo $dado->data;
+                     echo $dado->hora;
+                     echo $dado->descricao;
                   } 
               }else{
                  echo "Não há registros cadastrados!";

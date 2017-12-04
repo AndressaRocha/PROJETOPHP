@@ -39,6 +39,23 @@
             }
     
         }
+        
+        public function mostrar(){
+        
+           // $this->db->from('post');
+        //	$this->db->order_by('titulo', 'asc');
+            $this->db->where('titulo');
+            $dados = $this->db->get('post');
+            print_r($dados);
+                 if ($dados->num_rows()>0)
+                {
+                  return $dados->result();
+                }
+                  else
+                {
+                  return false;
+                }
+        }
     }
     
 ?>
