@@ -71,6 +71,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-preview">
             <a href="post.html">
+              <p> <?php echo $aula;?></p>
               <h2 class="post-title">
               TITULO 
               </h2>
