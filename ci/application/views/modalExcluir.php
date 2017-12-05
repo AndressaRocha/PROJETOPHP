@@ -75,7 +75,7 @@
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Excluir sua conta</label>
-               Confirme sua senha:<input type="password" class="form-control" placeholder="confirme sua senha" id="senha required data-validation-required-message="Preencha a disciplina"" name="senha" style="border: solid thin;"><br>
+               Confirme sua senha:<input type="password" class="form-control" placeholder="confirme sua senha" id="senha" name="senha"><br>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
