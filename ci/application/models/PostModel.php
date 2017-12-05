@@ -1,15 +1,16 @@
 <?php
 require_once APPPATH."models/formulario.php";
     class PostModel implements formulario{
-        private $id, $titulo, $disciplina, $data, $hora, $descricao ;
+        private $id, $titulo, $disciplina, $data, $hora, $local, $descricao ;
         
         //Passando os parametros privados 
-        public function __construct($id, $titulo, $disciplina, $data, $hora, $descricao){
+        public function __construct($id, $titulo, $disciplina, $data, $hora, $local, $descricao){
             $this->id = $id;
             $this->titulo = $titulo;
             $this->disciplina = $disciplina;
             $this->data = $data;
             $this->hora = $hora;
+            $this->local = $local;
             $this->descricao = $descricao;
         }
         public function getId(){
@@ -32,6 +33,10 @@ require_once APPPATH."models/formulario.php";
             return $this->hora;
         }
         
+        public function getLocal(){
+            return $this->local;
+        }
+        
         public function getDisciplina(){
             return $this->disciplina;
         }
@@ -44,6 +49,7 @@ require_once APPPATH."models/formulario.php";
             $aux["disciplina"] = $this->disciplina;
             $aux["data"] = $this->data;
             $aux["hora"] = $this->hora;
+            $aux["local"] = $this->local;
             $aux["descricao"] = $this->descricao;
             return $aux;
         }

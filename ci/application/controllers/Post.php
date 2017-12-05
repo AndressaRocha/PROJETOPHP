@@ -16,9 +16,10 @@ class Post extends CI_Controller {
 		$disciplina = $this->input->post("disciplina");
 		$data = $this->input->post("data");
 		$hora = $this->input->post("hora");
+		$local = $this->input->post("local");
 		$descricao = $this->input->post("descricao");
 		require_once APPPATH."models/PostModel.php";
-		$post = new PostModel(0,$titulo,$disciplina,$data,$hora,$descricao);
+		$post = new PostModel(0,$titulo,$disciplina,$data,$hora,$local,$descricao);
 		$this->load->model('insertdao');
 		$insdao = $this->insertdao;
 		$insdao->insert($post);

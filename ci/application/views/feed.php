@@ -86,6 +86,7 @@
                   <p>Disciplina: <?php echo $post->disciplina; ?></p> 
                   <p>Dia: <?php echo $post->data; ?></p> 
                   <p>Hora: <?php echo $post->hora; ?></p> 
+                  <p>local: <?php echo $post->local; ?></p> 
                   <p>Descrição: <?php echo $post->descricao; ?></p> 
                 </div>  
               </div>

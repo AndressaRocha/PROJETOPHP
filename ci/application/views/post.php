@@ -76,22 +76,23 @@
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Titulo</label>
-                <input type="text" minlength="10" class="form-control" placeholder="Titulo" name="titulo" required data-validation-required-message="Preencha o tutilo">
+                <input type="text" minlength="10" class="form-control" placeholder="Titulo" name="titulo" required/>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Disciplina</label>
-                <input type="text" maxlength="50" class="form-control" placeholder="Disciplina" name="disciplina" required data-validation-required-message="Preencha a disciplina">
+                <input type="text" maxlength="50" class="form-control" placeholder="Disciplina" name="disciplina" required/>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
                 <label>Data</label>
-                <input type="date" class="form-control" placeholder="Data" name="data" required data-validation-required-message="Preencha a data">
-                <input type="time" class="form-control" placeholder="Hora" name="hora" required data-validation-required-message="Preencha a hora">
+                <input type="date" class="form-control" placeholder="Data" name="data" required/>
+                <input type="time" class="form-control" placeholder="Hora" name="hora" required/>
+                <input type="text" class="form-control" placeholder="local" name="local" required/>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
