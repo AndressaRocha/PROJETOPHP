@@ -54,4 +54,17 @@ class Aluno extends CI_Controller {
 			$this->db->row_delete($senha);
         }
 	}
+	
+	public function atualizar(){
+		$senha = $this->input->post("senha");
+		$email = $this->input->post("email");
+		require_once APPPATH."models/aluno.php";
+		$this->load->model('alunodao');
+		$aludao = $this->alunodao;
+		$aluno = $aludao->alterarSenha($email,$senha);
+		if(isset($aluno)){
+			$this->session->unset_userdata("aluno");
+			$this->db->row_update($senha);
+        }
+	}
 }

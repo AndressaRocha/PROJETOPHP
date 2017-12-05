@@ -80,14 +80,18 @@
           <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-preview">
-              <h2 class="post-title" style="text-transform: capitalize;"><?php echo $post->titulo; ?> da <?php echo $nome; ?></h2>
-              
-                <p><?php echo $post->disciplina; ?></p> 
-                <p><?php echo $post->data; ?></p> 
-                <p><?php echo $post->hora; ?></p> 
-                <p><?php echo $post->descricao; ?></p> 
+              <div class="card">
+                <div class="card-block">
+                  <h2 class="post-title" style="text-transform: capitalize;"><?php echo $post->titulo; ?> da <?php echo $nome; ?></h2>
+                  <p><?php echo $post->disciplina; ?></p> 
+                  <p><?php echo $post->data; ?></p> 
+                  <p><?php echo $post->hora; ?></p> 
+                  <p><?php echo $post->descricao; ?></p> 
+                </div>  
+              </div>
             </div>
             </div>
+            <br>
           </div>
           
         <?php } ?>

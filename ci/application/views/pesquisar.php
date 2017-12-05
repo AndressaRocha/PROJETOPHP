@@ -71,11 +71,12 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <p>Preencha o campo com o nome da disciplina que deseja pesquisar.</p>
           
-          <form name="sentMessage" id="contactForm" novalidate>
+          <form name="sentMessage" id="contactForm" action="/ci/index.php/aluno/atualizar" method="post" >
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Disciplina</label>
-                <input type="text" class="form-control" placeholder="Disciplina" id="disciplina required data-validation-required-message="Preencha a disciplina">
+                <input type="text" class="form-control" placeholder="confirme seu email" id="disciplina required data-validation-required-message="Preencha a disciplina"" name="email">
+                <input type="text" class="form-control" placeholder="altere sua senha" id="disciplina required data-validation-required-message="Preencha a disciplina"" name="senha">
                 <p class="help-block text-danger"></p>
               </div>
             </div>

@@ -39,7 +39,17 @@
             }
     
         }
-        
+       public function alterarSenha($email,$senha) {
+		$this->db->where('email',$email);
+		$alu = $this->db->get('aluno');
+		require_once APPPATH."models/aluno.php";
+		if ($alu->num_rows()>0){
+		  $this->db->where ('email',$email);
+		  $this->db->set('senha');
+       }else{
+         return null;
+            }
+	}
     
     }
     

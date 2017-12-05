@@ -28,5 +28,4 @@ class Feed extends CI_Controller {
 			redirect('/home/form','refresh');
 		}
 	}
-	
 }
