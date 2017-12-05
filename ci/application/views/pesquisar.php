@@ -41,7 +41,7 @@
               <a class="nav-link" href="/ci/index.php/post/">Cadastre uma aula</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/ci/index.php/pesquisa/">Trocar de senha</a>
+              <a class="nav-link" href="/ci/index.php/pesquisa/">Alterar senha</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/ci/index.php/logout/">Sair</a>
@@ -59,7 +59,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>TROCAR DE SENHA</h1>
+              <h1>Alterar Senha</h1>
             </div>
           </div>
         </div>

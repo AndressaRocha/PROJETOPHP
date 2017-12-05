@@ -41,7 +41,7 @@
               <a class="nav-link" href="/ci/index.php/post/">Cadastre uma aula</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/ci/index.php/pesquisa/">Trocar de senha</a>
+              <a class="nav-link" href="/ci/index.php/pesquisa/">Alterar senha</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/ci/index.php/logout/">Sair</a>
@@ -57,9 +57,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="page-heading">
+            <div class="site-heading">
               <h1>Cadastre uma aula</h1>
-              <span class="subheading">Tem um tempo disponivel? Que tal ensinar um aluno? </span>
+              <span class="subheading">Tem um tempo disponível? Que tal ensinar um aluno? </span>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>Preencha os campos com os dados da sua aula, assim que o cadastro for finalizado sua aula estará disponivel no feed para todos os usuarios.</p>
+          <p>Preencha os campos com os dados da sua aula, assim que o cadastro for finalizado sua aula estará disponível no feed para todos os usuários.</p>
           
           <form action="/ci/index.php/post/cadastrarAula/" method="post" name="sentMessage" id="contactForm" novalidate>
             <div class="control-group">
@@ -92,6 +92,12 @@
                 <label>Data</label>
                 <input type="date" class="form-control" placeholder="Data" name="data" required/>
                 <input type="time" class="form-control" placeholder="Hora" name="hora" required/>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group col-xs-12 floating-label-form-group controls">
+                <label>Data</label>
                 <input type="text" class="form-control" placeholder="local" name="local" required/>
                 <p class="help-block text-danger"></p>
               </div>
