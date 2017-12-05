@@ -47,7 +47,7 @@
 		  $this->db->where ('email',$email);
 		  $this->db->set('senha',$senha);
 		  $this->db->update ('aluno');
-		  
+		  redirect('feed/dashboard/','refresh');
        }else{
          return null;
             }

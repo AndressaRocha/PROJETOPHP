@@ -41,6 +41,9 @@
               <a class="nav-link" href="/ci/index.php/post/">Cadastre uma aula</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="/ci/index.php/pesquisa/">Trocar de senha</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="/ci/index.php/logout/">Sair</a>
             </li>
           </ul>

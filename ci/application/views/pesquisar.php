@@ -35,13 +35,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/ci/index.php/feed/">Pesquisar</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="/ci/index.php/feed/dashboard">Feed</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/ci/index.php/post/">Cadastre uma aula</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ci/index.php/pesquisa/">Trocar de senha</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/ci/index.php/logout/">Sair</a>
@@ -59,7 +59,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>PESQUISAR</h1>
+              <h1>TROCAR DE SENHA</h1>
             </div>
           </div>
         </div>
@@ -69,14 +69,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>Preencha o campo com o nome da disciplina que deseja pesquisar.</p>
+          <p> Confirme seu e-mail e troque de senha.</p>
           
           <form name="sentMessage" id="contactForm" action="/ci/index.php/aluno/atualizar" method="post" >
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Disciplina</label>
-                <input type="text" class="form-control" placeholder="confirme seu email" id="disciplina required data-validation-required-message="Preencha a disciplina"" name="email">
-                <input type="text" class="form-control" placeholder="altere sua senha" id="disciplina required data-validation-required-message="Preencha a disciplina"" name="senha">
+               Confirme seu e-email:<input type="text" class="form-control" placeholder="confirme seu email" id="disciplina required data-validation-required-message="Preencha a disciplina"" name="email" style="border: solid thin;"><br>
+               Nova senha:<input type="password" class="form-control" placeholder="altere sua senha" id="disciplina required data-validation-required-message="Preencha a disciplina"" name="senha" style="border: solid thin;">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -84,7 +84,7 @@
             <br>
             <div id="success"></div>
             <div class="form-group">
-              <button type="submit" class="btn btn-primary" id="pesquisar">Pesquisar</button>
+              <button type="submit" class="btn btn-primary" id="pesquisar">Confirmar</button>
             </div>
           </form>
         </div>
@@ -93,27 +93,7 @@
     <!-- Main Content -->
     <div class="container">
       
-       <!-- $posts não está vazio? -->
-      <?php if(!empty($posts)) { ?>
-      
-        <?php foreach($posts as $post){ ?>
-        
-          <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="post-preview">
-              <h2 class="post-title" style="text-transform: capitalize;"><?php echo $post->titulo; ?> da <?php echo $nome; ?></h2>
-              
-                <p><?php echo $post->disciplina; ?></p> 
-                <p><?php echo $post->data; ?></p> 
-                <p><?php echo $post->hora; ?></p> 
-                <p><?php echo $post->descricao; ?></p> 
-            </div>
-            </div>
-          </div>
-          
-        <?php } ?>
-        
-      <?php } ?>
+
       
     </div>
     

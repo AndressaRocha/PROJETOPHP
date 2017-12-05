@@ -65,6 +65,8 @@ class Aluno extends CI_Controller {
 		if(isset($aluno)){
 			$this->session->unset_userdata("aluno");
 			$this->db->update('senha');
+			
+			
         }
 	}
 }

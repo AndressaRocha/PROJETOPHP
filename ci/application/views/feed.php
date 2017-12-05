@@ -43,7 +43,7 @@
               <a class="nav-link" href="/ci/index.php/post/">Cadastre uma aula</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="/ci/index.php/pesquisa/">Pesquisar</a>
+              <a class="nav-link" href="/ci/index.php/pesquisa/">Altere sua senha</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/ci/index.php/logout/">Sair</a>
@@ -80,15 +80,16 @@
           <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-preview">
-              <div class="card">
+              <div class="card" style="background-color: #F6F6F6; padding:50px;">
                 <div class="card-block">
-                  <h2 class="post-title" style="text-transform: capitalize;"><?php echo $post->titulo; ?> da <?php echo $nome; ?></h2>
-                  <p><?php echo $post->disciplina; ?></p> 
-                  <p><?php echo $post->data; ?></p> 
-                  <p><?php echo $post->hora; ?></p> 
-                  <p><?php echo $post->descricao; ?></p> 
+                  <h2 class="post-title" style="text-transform: capitalize; text-align: center;"><?php echo $post->titulo; ?> </h2>
+                  <p>Disciplina: <?php echo $post->disciplina; ?></p> 
+                  <p>Dia: <?php echo $post->data; ?></p> 
+                  <p>Hora: <?php echo $post->hora; ?></p> 
+                  <p>Descrição: <?php echo $post->descricao; ?></p> 
                 </div>  
               </div>
+              <br>
             </div>
             </div>
             <br>
