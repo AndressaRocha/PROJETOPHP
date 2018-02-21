@@ -175,18 +175,27 @@
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:andressarochamorgado@hotmali.com">andressarochamorgado@hotmail.com</a>
+              <a href="mailto:projeto@projeto.com">projeto@projeto.com</a>
             </p>
-            <p>
-              <a href="mailto:juciara.slima@gmail.com">juciara.slima@gmail.com</a>
-            </p>
-            <p>
-              <a href="tallytareis@gmail.com">tallytareis@gmail.com</a>
-            </p>
+           
           </div>
         </div>
       </div>
     </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>

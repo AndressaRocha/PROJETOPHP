@@ -74,9 +74,15 @@
           <form name="sentMessage" id="contactForm" action="/ci/index.php/aluno/atualizar" method="post" >
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
-                <label>Disciplina</label>
-               Confirme seu e-email:<input type="text" class="form-control" placeholder="confirme seu email" id="disciplina required data-validation-required-message="Preencha a disciplina"" name="email" style="border: solid thin;"><br>
-               Nova senha:<input type="password" class="form-control" placeholder="altere sua senha" id="disciplina required data-validation-required-message="Preencha a disciplina"" name="senha" style="border: solid thin;">
+               <label>Confirme seu e-email</label>
+                 <input type="text" class="form-control" placeholder="confirme seu email" id="email"><br>
+              <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <label>Nova senha:</label>
+                <input type="password" class="form-control" placeholder="altere sua senha" id="senha">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -90,14 +96,7 @@
         </div>
       </div>
     </div>
-    <!-- Main Content -->
-    <div class="container">
-      
 
-      
-    </div>
-    
-    <hr>
     <!-- Footer -->
     <footer>
       <div class="container">

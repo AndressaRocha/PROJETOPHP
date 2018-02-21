@@ -1,0 +1,7 @@
+ id |      nome      |         curso          |      ra      |                       email                        |        senha         
+----+----------------+------------------------+--------------+----------------------------------------------------+----------------------
+ 95 | Bárbara Reis   | SI                     | 050831612009 | tallytareis@gmail.com                              | 123456789           
+ 91 | Andressa Rocha | Sistemas para Internet | 005514698003 | andressarochamorgado@hotmail.com                   | andressa            
+ 90 | Juciara Lima   | Sistemas para Internet | 0012365478   | juciara.slima@gmail.com                            | juciara0410         
+(3 rows)
+

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Feed</title>
+    <title>Excluir</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?= base_url(); ?>assets2/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -74,8 +74,8 @@
            <form action="/ci/index.php/excluirConta" method="post" class="formulario">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
-                <label>Excluir sua conta</label>
-               Confirme sua senha:<input type="password" class="form-control" placeholder="confirme sua senha" id="senha required data-validation-required-message="Preencha a disciplina"" name="senha" style="border: solid thin;"><br>
+                <label>Confirme sua senha:</label>
+               <input type="password" class="form-control" placeholder="confirme sua senha" id="senha"><br>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -91,12 +91,9 @@
     </div>
     <!-- Main Content -->
     <div class="container">
-      
 
-      
     </div>
-    
-    <hr>
+
     <!-- Footer -->
     <footer>
       <div class="container">

@@ -119,8 +119,6 @@
       </div>
     </div>
 
-    <hr>
-
     <!-- Footer -->
     <footer>
       <div class="container">
