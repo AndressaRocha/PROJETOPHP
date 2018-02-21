@@ -74,13 +74,8 @@
            <form action="/ci/index.php/excluirConta" method="post" class="formulario">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
-<<<<<<< HEAD
-                <label>Confirme sua senha:</label>
-               <input type="password" class="form-control" placeholder="confirme sua senha" id="senha"><br>
-=======
                 <label>Excluir sua conta</label>
                Confirme sua senha:<input type="password" class="form-control" placeholder="confirme sua senha" id="senha" name="senha"><br>
->>>>>>> d31d146016ca7ae5ebdd416738df52e95ba90bb6
                 <p class="help-block text-danger"></p>
               </div>
             </div>
