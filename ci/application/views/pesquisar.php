@@ -74,6 +74,7 @@
           <form name="sentMessage" id="contactForm" action="/ci/index.php/aluno/atualizar" method="post" >
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
+<<<<<<< HEAD
                <label>Confirme seu e-email</label>
                  <input type="text" class="form-control" placeholder="confirme seu email" id="email"><br>
               <p class="help-block text-danger"></p>
@@ -83,10 +84,21 @@
               <div class="form-group floating-label-form-group controls">
                 <label>Nova senha:</label>
                 <input type="password" class="form-control" placeholder="altere sua senha" id="senha">
+=======
+                
+               <label>Confirme seu e-email:</label>
+               <input type="text" class="form-control" placeholder="confirme seu email" id="disciplina" name="email"><br>
+>>>>>>> d31d146016ca7ae5ebdd416738df52e95ba90bb6
                 <p class="help-block text-danger"></p>
               </div>
             </div>
-            
+            <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label>Nova senha:</label>
+             <input type="password" class="form-control" placeholder="altere sua senha" id="disciplina" name="senha">
+              <p class="help-block text-danger"></p>
+             </div>
+            </div>  
             <br>
             <div id="success"></div>
             <div class="form-group">
